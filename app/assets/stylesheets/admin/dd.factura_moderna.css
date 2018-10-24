@@ -1,0 +1,118 @@
+/* Factura Moderna */
+#dd-modal-factura-moderna
+{
+    width: 1024px;
+    margin-left:  25% !important; /*-500px !important;*/
+    /*margin-top: -75px;*/
+}
+
+#dd-modal-factura-moderna  .modal-body {
+    /*max-height: 600px;*/
+}
+
+#img-tu-logo {
+    height: 243px;
+    width:  253px;
+}
+
+#img-qr {
+    height: 174px;
+    width:  182px;
+}
+
+textarea.txta-factura-moderna-body {
+    width: 600px;
+    height:50px;
+    margin-top: -50px;
+}
+
+textarea.txta-factura-moderna-media {
+    width: 600px;
+    height: 70px;
+}
+
+textarea.txta-factura-moderna-footer {
+    width: 90%;
+    height:75px;
+}
+
+ul.strong > li  {
+    font-weight: 900;
+}
+
+li.total {
+    padding: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Factura Tradicional */
+#dd-modal-factura-tradicional
+{
+    width: 1024px;
+    margin-left:  25% !important;
+    /*margin-top: 5px;*/
+}
+
+#dd-modal-factura-tradicional  .modal-body {
+    /*max-height: 600px;*/
+}
+
+textarea.txta-factura-tradicional-body {
+    width: 90%;
+    height:60px;
+}
+
+textarea.txta-factura-tradicional-media {
+    width: 370px;
+    height: 70px;
+}
+
+ul.dashed li {
+    border-bottom: 1px solid;
+}
+
+ul.dashed:first-child {
+    border-top: 1px solid;
+}
+
+.datos-header {
+    background-color: #a9a9a9;
+    padding: 5px;
+}
+
+.space-between {
+    margin-bottom: 10px;
+}
+
+#table-factura-tradicional > tbody > tr:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-small-info {
+    margin-top: -20px;
+}
+
+.txta-factura-tradicional-footer {
+    height: 100px;
+    width: 950px;
+}
+
+ul.stripped li{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 5px;
+}
+
+ul.stripped li:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+
+.mantener-renglon{
+  white-space: nowrap;
+}
+
+.div-factura {
+    width: 826px;
+    border: none !important;
+    padding-bottom: 30px;
+}

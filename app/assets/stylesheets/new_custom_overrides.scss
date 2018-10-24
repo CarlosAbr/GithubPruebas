@@ -1,0 +1,651 @@
+.container{
+    padding-top: 5px;
+    min-width: 1170px;
+}
+
+// Este codigo es que cambia los bordes de todos los inputs
+// .form-control {
+//   border: 1px solid #26a0c9 !important;
+// }
+
+.select2-search input{
+    border: none !important;
+    background: url("/images/site/select2.png") no-repeat 100% -22px !important;
+}
+
+.select2-results li:first-child{
+    border-top: solid 1px #eeeeee;
+}
+
+.background-gray {
+    background-color: #f5f5f5;
+}
+
+input.form-control:not(textarea){
+  height: 30px !important;
+}
+
+select.form-control {
+  height: 31px !important;
+}
+
+.chosen-container-single .chosen-single {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+.search-choice-close{
+    top: 11px !important;
+}
+
+a.horrid-blue {
+  color: #0000EE !important;
+}
+
+a.horrid-blue:visited {
+  color: #551A8B !important;
+}
+
+a.horrid-blue:active {
+  color: #EE0000 !important;
+}
+
+.btn-listado {
+    border-radius: 4px;
+    color: #337ab7;
+    background-color: hsl(0, 0%, 100%);
+    font-weight: normal;
+}
+
+.btn-listado:hover {
+    border-radius: 4px;
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(195, 68%, 47%);
+    font-weight: normal;
+}
+
+a:hover:not(.no-bgc), a:focus:not(.no-bgc) {
+    color: #FFF;
+    background-color: #1a6b9e;
+    text-decoration: underline;
+}
+
+.btn-link:hover:not(.no-bgc), .btn-link:focus:not(.no-bgc) {
+    background-clip: content-box;
+    background-color: #1a6b9e !important;
+    color: white !important;
+}
+
+.img-25-25 {
+    height: 25px;
+    width: 25px;
+}
+
+.busqueda-avanzada-label {
+    padding-left: 15px;
+    float: left;
+    width: 150px;
+}
+
+.busqueda-avanzada-label-short {
+    padding-left: 15px;
+    float: left;
+    width: 55px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #26a0c9 !important;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555555;
+    text-align: center;
+    background-color: #eeeeee;
+    // border: 1px solid #26a0c9;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#header-background {
+    background: none repeat scroll 0 0 #fff;
+    height: 95px;
+    min-width: 1024px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+#header-bar {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0);
+    height: 45px;
+    min-width: 1200px;
+    padding: 0px;
+    position: absolute;
+    top: 96px;
+    width: 100%;
+}
+
+.con-banner {
+   top: 0px !important;
+}
+
+.header-bar-banner {
+   top: 116px !important;   
+}
+
+body {
+    color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+html,body
+{
+    height:100%;
+}
+
+#wrap, #wrap-registro
+{
+  min-height: 100%;
+}
+
+#content{
+    background: none repeat scroll 0 0 #ffffff;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 112px;
+
+    /*Este codigo es requerido para el footer*/
+    overflow:auto;
+    padding-bottom:150px;
+}
+
+.content-banner {
+    margin-top: 55px !important;
+}
+
+.fecha-menu-banner {
+    top: 217px !important;
+}
+
+#content-registro-simple {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  padding-top: 145px;
+  z-index: 5;
+  
+  /*Este codigo es requerido para el footer*/
+  overflow: hidden;
+  //   El padding creaba un espacio innecesario en el footer
+  //   padding-bottom:150px;
+}
+.padding-footer{
+    padding-bottom: 125px !important;
+}
+
+.registro_correo{
+    word-break: break-word;
+}
+
+.content-registro-simple_azul{
+    // background: #24a2cf!important;
+}
+
+.footer-bar {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    clear: both;
+    text-align: center;
+}
+
+.btn-nuevo-mas.img-responsive,
+.btn-nueva-factura.img-responsive{
+    display: inline;
+}
+
+.btn-mi-cuenta-upgrade {
+  width: 100px;
+  height: 35px;
+  background-color: #26a0c9;
+  color:white;
+  position: relative;
+  top: -10px;
+}
+
+.btn-mi-cuenta-upgrade:hover {
+  background-color: #043c6a;
+  color:white;
+}
+
+.btn-docdig {
+  background-color: #26a0c9;
+  // color: #043c6a;
+  color:white;
+}
+
+.btn-docdig:hover {
+  background-color: #043c6a;
+  /*color sugerido*/
+  // color: #26a0c9;
+  color:white;
+}
+
+img {
+    height: 35%;
+    vertical-align: middle;
+    width: 120%;
+}
+
+img.config-logo-preview{
+    width: auto;
+}
+
+img.factura-preview{
+    width:auto;
+}
+
+#img-btn-acceso {
+  width: 105px !important;
+  height: 43px !important;
+}
+
+.btn{
+    text-decoration: none;
+}
+
+.btn-link{
+    text-decoration: underline;
+}
+
+.btn-default {
+    background-color: #6d6e70;
+    border-color: transparent;
+    padding: 3px;
+    width: 120px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-long{
+    width: 150px;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default[disabled],
+.btn-default:active, .btn-default.active{
+    // background-color: #929497; <-- Color original entregado por disenadora, no es lo suficientemente gris
+    background-color: #626262;
+    color: #fff;
+}
+
+.btn-cta-usuario {
+    background-color: #fff;
+    border-color: #6d6e70;
+    color: #000;
+    width: 110px;
+    text-decoration: none;
+}
+
+.notificacion-imagen{
+  width: 100%;
+  height: auto;
+ }
+
+ .notificacion-col-icon{
+    padding-top: 15px;
+ }
+
+.notificacion-icono{
+  width: inherit;
+  height: inherit;
+ }
+
+.btn-notificaciones:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.bg-notificacion{
+    background-color: #d9534f;
+}
+
+.btn-notificacion-bell{
+    background-color: white;
+}
+.btn-notificacion-bell:focus{
+    outline: none;
+}
+
+.notificacion-icon-bell{
+    font-size: 25px;
+    color: #0897c3;
+    cursor: pointer;
+}
+
+.notificacion-badge{
+    // content: attr(data-count);
+    font-size: 12px;
+    background: #d9534f;
+    border-radius: 3px;
+    color: #fff;
+    z-index: 99999;
+    font-weight: 600;
+    padding: 4px 7px;
+    box-shadow: -1px 2px 3px rgba(0,0,0,.3), inset 0 2px 5px rgba(225,225,225,.3);
+    position: relative;
+    top: -19px;
+    left: -15px;
+}
+
+.notificacion-leida{
+    background-color: none;
+}
+
+.notificacion-no-leida{
+    background-color: #eee;
+}
+
+.btn-eliminar-notificacion{
+    padding: inherit !important;
+    padding-top: 50% !important;
+}
+
+.no-z-index{
+    z-index: 0 !important;
+}
+
+.btn-menu {
+    padding: 10px 0px;
+    border-radius: 5px;
+    height: 45px;
+    background-color: #26a0c9;
+    border-color: #26a0c9;
+    color: #fff;
+    width: 143.3px;
+    text-decoration: none;
+}
+
+.btn-submenu {
+    padding: 6px 35px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #26a0c9;
+    text-decoration: none;
+}
+
+.btn-nuevo-cliente {
+    border: 2px solid #fff;
+    height: 50px;
+    width: 210px;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-nueva-factura {
+    border: 2px solid #fff;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-nueva-cotizacion {
+    border: 2px solid #fff;
+    height: 50px;
+    width: 220px;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-nueva-categoria {
+    border: 2px solid #fff;
+    height: 50px;
+    width: 220px;
+    top: 8px;
+    position: relative;
+}
+
+.btn-nueva-nomina {
+    border: 2px solid #fff;
+    height: 50px;
+    width: 210px;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-nuevo-producto {
+    height: 50px;
+    width: 220px;
+    border: 2px solid #fff;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-nuevo-mas {
+    border: 2px solid #fff;
+    height: 50px;
+    width: 150px;
+    top: 8px;
+    left: 17px;
+    position: relative;
+}
+
+.btn-opciones-factura {
+    background-image: url("../../images/site/BOTONGRISOBSCURO_FACTURACION.png");
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 8px 50px;
+    border:none;
+}
+
+.btn-opciones-factura:hover, .btn-opciones-factura:focus, .btn-opciones-factura.focus,
+.btn-opciones-factura:active, .btn-opciones-factura.active{
+    background-image: url("../../images/site/BOTONGRISCLARO_FACTURACION.png");
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-submenu:hover, .btn-submenu:focus, .btn-submenu.focus, .btn-submenu:active,
+.btn-submenu.active, .open > .dropdown-toggle.btn-submenu {
+    background-color: #26a0c9;
+    border-color: #adadad;
+    color: #fff;
+}
+
+.btn-menu:hover, .btn-menu:focus, .btn-menu.focus, .btn-menu:active,
+.btn-menu.active, .open > .dropdown-toggle.btn-menu {
+    background-color: #fff;
+    border-color: #adadad;
+    color: #1691bb;
+}
+
+.nav-pills > li > a {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #26a0c9;
+}
+
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    background-color: #26a0c9;
+    text-decoration: none;
+}
+
+
+.nav > li > a {
+    display: block;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.nav-tabs > li > a {
+    color: #26a0c9;
+}
+
+// Tabs sin seleccionar
+.nav-tabs > li > a {
+    color: #fff;
+    background-color: #26a0c9;
+}
+
+// Tabs activos
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #26a0c9;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+// Tabs hover
+.nav-tabs > li > a:hover {
+    background-color: #fff;
+    color: #26a0c9;
+}
+
+.hr-submenu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #adadad -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+
+.table.table-hover.table-responsive > thead> tr >th {
+    background-color: #26a0c9;
+    color: #fff;
+}
+
+a{
+    color: #337AB7;
+    text-decoration: underline;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
+
+ul.ui-autocomplete{
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #999;
+    cursor: default;
+}
+
+ul.ui-autocomplete > li {
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+}
+ul.ui-autocomplete > li {
+    color: #000;
+    display: block;
+    padding: 3px;
+}
+ul.ui-autocomplete >  li:hover{
+    background-color: #00a9ef;
+    color: #FFF;
+}
+
+.control-label-info {
+    margin-bottom: 0;
+    padding-top: 7px;
+    text-align: right;
+    color: #31708f;
+    font-weight: normal;
+}
+
+.pagination{
+    margin: 5px 0;
+}
+
+.pagination > .page.current{
+    color: #FFF;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1% 5px;
+}
+
+.font-smaller{
+    font-size: smaller;
+}
+
+.sort-icon{
+    float: right;
+    font-size: smaller;
+    margin-top: 3px;
+}
+
+a.btn-link{
+    color:blue;
+}
+
+// Para los mensajes de alerta
+.alert .glyphicon{
+    display:table-cell;
+}
+
+.alert div,
+.alert span{
+    padding-left: 5px;
+    display:table-cell;
+}
+
+.table {
+    margin-bottom: 15px;
+}
+
+.border-red {
+    border-color: red !important;
+    border-width: 2px !important;
+}
+
+.text-red {
+    color: red;
+}
+
+.clave-sat-resaltar {
+    z-index: 20;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    height: 117px;
+    width: 81px;
+    left: 203px;
+    display: none;
+}
+
+.unidad-sat-resaltar {
+    z-index: 20;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    height: 117px;
+    width: 90px;
+    left: 585px;
+    display: none;
+}
+
+.remove-icon-popover{
+    color: hsl(0, 0%, 50%);
+    margin-top: -24px;
+    margin-right: 12px;
+    float: right;
+    z-index: 30;
+}

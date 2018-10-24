@@ -1,0 +1,56 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.7);
+}
+
+#dashboard-features {
+  position: fixed;
+  top: 250;
+  z-index: 100000000;
+  color: white !important;
+}
+
+.dashboard-feature-titulo{
+  color: white !important;
+  font-size: 42px;
+}
+
+.dashboard-feature-subtitulo {
+  color: white !important;
+  font-size: 20px;
+}
+
+.dashboard-feature-descripcion {
+  color: white !important;
+  font-size: 16px;
+  text-indent: 30px;
+  position: relative;
+  top: 15px;
+}
+
+.feature-arrow {
+  height: 180px !important;
+  left: 450px;
+  position: absolute;
+  top: -120px;
+  width: 380px !important;
+}
+
+.feature-bulls-eye {
+  height: 124px !important;
+  position: absolute;
+  right: 35px;
+  top: -200px;
+  width: 120px !important;
+}
+
+.feature-btn-row {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}

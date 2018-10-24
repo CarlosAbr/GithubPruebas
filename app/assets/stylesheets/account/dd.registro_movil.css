@@ -1,0 +1,433 @@
+@media only screen and (max-width:599px) {
+
+  .forma-registro {
+      background-color: #D6FFFF;
+  }
+
+  .form-control-wrapper > i.form-control-feedback {
+      right: 15px;
+      top: 25px;
+  }
+
+  .landing-page-container {
+    min-width: 100% !important;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0;
+    overflow-x:hidden;
+    background-color: white;
+  }
+
+  .landing-page-header-bar {
+    position: absolute;
+    background: none;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #f3f3f3;
+    top: 0px;
+    left: 0px;
+    height: 113px;
+    width: 100%;
+  }
+
+  .landing-page-header-bar-image {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    width: 100%
+  }
+
+  img.landing-page-logo {
+    width: 298px;
+    height: 85px;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0;
+  }
+
+  .landing-page-header-bar-text {
+    display: none;
+  }
+
+  .landing-page-titles-bar {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    min-width: 100% !important;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .landing-page-title-text-1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0099cc;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landing-page-subtitle-text {
+    font-size: 18px;
+    color: #8d8e9f;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 80%;
+  }
+
+  .landing-page-content-wrapper {
+    position:relative;
+    top: 75px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 903px;
+  }
+
+  #lp-pom-box-102 {
+    display: block;
+    background: #282936;
+    -pie-background: #282936;
+    border-style: none;
+    left: 0px;
+    top: 0px !important;
+    z-index: 28;
+    width: 320px;
+    min-height: 725px !important;
+    height: auto !important;
+    max-height: 825px !important;
+    position: absolute;
+    behavior: url(/PIE.htc);
+    border-radius: 0px;
+  }
+
+  .btn-danger.registro-btn-enviar {
+    font-weight: bold;
+    font-size: 12px !important;
+    height: 63px !important;
+    width: 283px !important;
+  }
+
+  .landing-page-content-right-responsive {
+    height: 200px;
+    width: 320px;
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    clear: both;
+  }
+
+  .landing-page-content-right-responsive > img {
+    width: 314px;
+    height: 500px;
+  }
+
+  .landing-page-subtitulo-forma {
+    font-size: 17px;
+    color: #ffffff;
+    position: relative;
+    top: -15px;
+  }
+
+  .landing-page-content-left {
+    display: none;
+  }
+
+  #landing-page-image-1 {
+    display: none;
+  }
+
+  .landing-page-comentarios-1 {
+    background: rgba(241, 240, 238, 1) none repeat scroll 0 0;
+    border-radius: 0;
+    border-style: none;
+    display: block;
+    height: 104px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+    width: 583px;
+  }
+
+  .landing-page-comentarios-content-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 350px;
+  }
+
+  .landing-page-comentarios-content-2 {
+    position: relative;
+    top: 0px;
+    left: 375px;
+    width: 100px;
+  }
+
+  .landing-page-comentarios-content-3 {
+    font-size: 12px;
+    left: 450px;
+    position: relative;
+    top: -40px;
+    width: 100px;
+  }
+
+  .landing-page-ol-list {
+    position: relative;
+    top: auto;
+    left: 30px;
+    width: 520px;
+  }
+
+  .rounded-list-li {
+    padding-bottom: 15px !important;
+  }
+
+  .landing-page-content-right {
+    position:relative;
+    top: 0px;
+    right: 0px;
+    width: 320px;
+    min-width: 693px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .landing-page-texto-forma {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .landing-page-image-comment-wrapper {
+    display: block;
+    height: 300px;
+    left: 55px;
+    position: relative;
+    top: -55px;
+    z-index: -100;
+    display:none;
+  }
+
+  .landing-page-image-comment {
+    height: 207px !important;
+    width: 394px !important;
+  }
+
+  .landing-page-galeria {
+    position: relative;
+    top: 460px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: auto;
+  }
+
+  .landing-page-blue-ribbon-bg {
+    background: rgba(33, 134, 194, 1) none repeat scroll 0 0;
+    display: block;
+    height: 99px;
+    clear: both;
+    width: 100%;
+    left: 0px;
+    position: relative;
+    top: 480px !important;
+  }
+
+  .landing-page-blue-ribbon {
+    border-radius: 0;
+    border-style: none;
+    display: block;
+    height: 100px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 350px;
+    text-align: center;
+    top: 0px;
+  }
+
+  .landing-page-blue-ribbon-content {
+    font-size: 23px;
+    color: #ffffff;
+  }
+
+  .landing-page-images {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 1700px;
+  }
+
+  .landing-page-image-1 {
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    display: block;
+    left: 0;
+    position: relative;
+    top: 50px;
+    z-index: 7;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image-content-1 {
+    overflow: hidden;
+    border-radius: 0;
+    border-style: none;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image {
+    height: 158px !important;
+    width: 289px !important;
+  }
+
+  .landing-page-image-2 {
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    display: block;
+    left: 0px;
+    position: relative;
+    top: 170px;
+    z-index: 8;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image-content-2 {
+    overflow: hidden;
+    border-radius: 0;
+    border-style: none;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image-3 {
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    display: block;
+    left: 0px;
+    position: relative;
+    top: 270px;
+    z-index: 8;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image-content-3 {
+    overflow: hidden;
+    border-radius: 0;
+    border-style: none;
+    height: 158px;
+    width: 289px;
+  }
+
+  .landing-page-image-titulo {
+    color: #259ca7;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .landing-page-image-subtitulo {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .landing-page-row-2 {
+    position: relative;
+    top: 350px;
+  }
+
+  .landing-page-footer-1 {
+      border-radius: 0;
+      border-style: none;
+      display: block;
+      height: 100px;
+      width: 100%;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      clear: both;
+      text-align: center;
+  }
+
+  .landing-page-footer-message {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    width: 320px !important;
+  }
+
+  .landing-page-footer-bg-1 {
+    position: absolute;
+    top: 3350px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+  }
+
+  .landing-page-footer-bg-2 {
+    background: rgba(40, 41, 54, 1) none repeat scroll 0 0;
+    clear: both;
+    width: 100%;
+    height: 64px;
+    display: none;
+  }
+
+  .landing-page-blue {
+    background: #2186c2 none repeat scroll 0 0;
+    position: absolute;
+    left: 0px;
+    top: 1500px;
+    width: 100%;
+    height: 100px;
+    z-index: -1000;
+    overflow:hidden;
+    display:none;
+  }
+
+  .landing-page-orange-movil {
+    background: #e44f3d none repeat scroll 0 0;
+    position: absolute;
+    top: 3350px;
+    width: 100%;
+    height: 102px;
+  }
+
+  .landing-page-orange {
+    display:none;
+  }
+
+  .landing-page-black-movil {
+    background: rgba(40, 41, 54, 1) none repeat scroll 0 0;
+    position: absolute;
+    top: 3450px;
+    width: 100%;
+    height: 64px;
+  }
+
+  .landing-page-black {
+    display:none;
+  }
+}

@@ -1,0 +1,84 @@
+#div-buscador-interfaz-cliente {
+  position: relative;
+  bottom: 0px;
+}
+
+.facturas-div-grid {
+  position: relative;
+  top: 10px;
+}
+
+.div-alert-container {
+  left: 14px;
+  max-width: 98%;
+  position: relative;
+  top: 10px;
+}
+
+.div-user-options-ic {
+    vertical-align:middle;
+    margin:20px 0;
+    line-height:45px;
+    right: 15px;
+}
+
+.div-user-options-ic > a {
+    margin-left: 10px;
+}
+
+.div-interfaz-cliente-impresion {
+  position: relative;
+  bottom: 0px;
+}
+
+.div-facturas-paginador-listado {
+  position: relative;
+  top: 10px;
+}
+
+.div-facturas-paginador-ic {
+  position: relative;
+  top: 40px;
+}
+
+.div-facturas-info-ic {
+  position: relative;
+  top: 85px;
+}
+
+#busqueda-avanzada-div-ic {
+  left: 30px !important;
+  margin-top: 10px;
+  position: relative;
+}
+
+#cotizaciones-busqueda-avanzada-div {
+  left: 15px !important;
+  margin-top: 10px;
+  position: relative;
+}
+
+#busqueda-avanzada-div-ic .row, #cotizaciones-busqueda-avanzada-div .row{
+	margin-bottom: 7px;
+}
+
+#cotizaciones-busqueda-avanzada-forma {
+  position: relative;
+  top: 10px;
+  margin-bottom: 10px;
+}
+
+.div-cotizacion-show-ic {
+    top: 60px;
+    position: relative;
+}
+
+.div-factura-interfaz-cliente {
+  position: relative;
+  top: 100px;
+}
+
+.div-botones-show {
+  position: relative;
+  top: 20px;
+}

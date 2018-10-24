@@ -1,0 +1,282 @@
+#banner1{
+display: inline-block;
+position:absolute;
+top:5%;
+width: 240px;
+min-width:240px;
+max-width:240px;
+height:70px;
+z-index:1;
+left:16px;
+
+}
+.abajo{
+display:block;
+position:relative;
+color:#B5B5B5;
+margin-left:26px;
+}
+.desactivado{
+display:block;
+position:absolute;
+color:#B5B5B5;
+margin-left:26px;
+}
+#banner2{
+display:inline-block;
+position:absolute;
+top:5%;
+left:296px;
+width: 240px;
+height:70px;
+z-index:1;
+}
+#banner3{
+display:inline-block;
+position:absolute;
+top:5%;
+left:576px;
+width: 240px;
+height:70px;
+z-index:1;
+}
+#banner4{
+display:inline-block;
+position:absolute;
+top:5%;
+left:856px;
+width: 240px;
+height:70px;
+z-index:1;
+}
+#bannertitulo1{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:80px;
+}
+#bannertitulo2{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:360px;
+}
+#bannertitulo3{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:615px;
+}
+#bannertitulo1_factura{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:40px;
+}
+#bannertitulo2_factura{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:320px;
+}
+#bannertitulo3_factura{
+  display:inline-block;
+  position:absolute;
+  top:6%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:30px;
+  left:595px;
+}
+#bannertitulo4{
+  display:inline-block;
+  position:absolute;
+  top:5.5%;
+  width: 270px;
+  height:90px;
+  z-index:1;
+  color:white;
+  font-family:ubuntu;
+  font-weight:500;
+  font-size:20px;
+
+  left:855px;
+  text-align:center;
+}
+
+.table_style{
+  display:block;
+  position:absolute;
+  width:1170px;
+  font-family:ubuntu;
+}
+.button_selection{
+  display: block;
+  position:absolute;
+  padding: 7px 15px;
+  font-size: 16px;
+  font-family:ubuntu;
+  font-weight:bold;
+  cursor: pointer;
+  text-align: center;
+  top:87%;
+  margin-top:1.5%;
+  margin-left:7.5%;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #faa71a;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #f49037;
+}
+.button_selection:hover {background-color: #f49037}
+
+.button_selection:active {
+  background-color:#46a7de;
+  -webkit-box-shadow: 0 2px #287793;
+  -webkit-transform: translateY(4px);
+}
+
+.checkm{
+  margin-right:12px;
+  height:15px;width:15px;
+}
+.separación{
+  position:relative;
+  display:block;
+  margin-top:5px;
+  font-size:12px;
+}
+.hr_style{
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+.contenido{
+  font-size:15px;
+  text-align:left;
+  margin-left:15px;
+
+}
+
+
+.linea1{margin-top:150px;
+margin-bottom:5px;}
+.linea2{margin-bottom:10px;
+margin-top:5px;}
+
+.lineas{
+  display:block;
+  position:relative;
+  margin-bottom:3px;
+  text-align:center;
+  font-size:16px;
+}
+
+.CadaMes{
+  display:block;
+  position:relative;
+  text-align:center;
+  font-size:16px;
+  font-weight:100;
+  top:140px;
+  padding-top: 10px;
+}
+.precios{
+  display:block;
+  position:absolute;
+  text-align:center;
+  top:90px;
+  font-size:50px;
+  font-weight:bold;
+  width: 250px;
+}
+#basico{
+  background-color:#f5fbfe;
+  height:570px;
+  width:250px;
+  border-radius:20px;
+  border:2px solid #92d9f8;
+  font-size:100px;
+  font-weight:400;
+  margin:0 15px;
+  }
+
+#mipyme{
+  background-color:#f5fbfe;
+  height:570px;
+  width:250px;
+  border-radius:20px;
+  border:2px solid #92d9f8;
+  font-size:100px;
+  font-weight:400;
+  margin:0 15px;
+  }
+
+#empresarial{
+  background-color:#f5fbfe;
+  height:570px;
+  width:250px;
+  border-radius:20px;
+  border:2px solid #92d9f8;
+  font-size:100px;
+  font-weight:400;
+  margin:0 15px;
+  }
+
+#emprePremium{
+  background-color:#ffebd5;
+  height:570px;
+  width:250px;
+  border-radius:20px;
+  border:medium #92d9f8;
+  border:2px solid #fdc26b;
+  font-size:100px;
+  font-weight:400;
+  margin:0 15px;
+  }
+
+  .numero_id_datos_bancarios{
+     color: #26a0c9;
+     font-size:18px;
+  }

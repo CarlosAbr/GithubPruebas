@@ -1,0 +1,44 @@
+.div-lower {
+  position: relative;
+  top: 10px;
+}
+
+#div-info-cuenta {
+  position: relative;
+  top: 40px;
+}
+
+#span-correo {
+  left: -20px;
+  position: relative;
+  top: 10px !important;
+}
+
+.col-informacion-pago {
+  max-width: 43% !important;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+}
+
+.docdig-account-env {
+  position: relative;
+  left: -20px;
+}
+
+.mi-cuenta-inputs {
+  position: relative;
+  left: -20px !important;
+}
+
+em.notas-mi-cuenta {
+  position: relative;
+  left: -20px;
+}
+
+a.actualizar-paquete-mi-cuenta {
+  position: relative;
+  left: -20px !important;
+}

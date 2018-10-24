@@ -1,0 +1,5410 @@
+#btn-nuevo-inicio {
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
+#div-bienvenido {
+    position: relative;
+    left: -18px;
+    top: -10px;
+}
+
+#div-apps {
+    width: 290px;
+    height: 305px;
+    margin: 0 auto;
+    background: url('../../images/site/DOCDIGITALES_DESCARGA1.png')
+}
+
+#select_empresas_usuarios {
+    min-width: 350px;
+    width: 350px;
+}
+
+.btn-primeros-pasos {
+    /* con azul de documentos digitales*/
+    background-color: #26a0c9;
+    color: white;
+    /* con azul de docDigitales*/
+    /*background-color: #26a0c9;
+  color: #1692b4;*/
+    text-align: left !important;
+}
+
+#btn-dashboard-nuevo {
+    width: 145px;
+    height: 45px;
+    background-image: url("../../images/site/BOTONNUEVO.png");
+    background-size: 100% 100%;
+    padding: 8px 50px;
+    border: none;
+    background-color: white;
+    position: relative;
+    left: 23px;
+}
+
+#btn-dashboard-nuevo-recepcion {
+    width: 145px;
+    height: 45px;
+    background-size: 100% 100%;
+    border: none;
+    background-color: white;
+    position: relative;
+}
+
+.btn-primeros-pasos:hover {
+    background-color: #043c6a;
+    color: white;
+}
+
+#div-primeros-pasos>a {
+    margin-bottom: 5px;
+}
+
+#div-primeros-pasos {
+    margin-bottom: 10px;
+    border: 1px solid #e4e4e4;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    left: -15px;
+    position: relative;
+    width: 293px;
+}
+
+#select-empresas-usuarios {
+    height: 55px;
+}
+
+.div-apps-footer {
+    position: relative;
+    top: 222px;
+}
+
+.div-user-options {
+    vertical-align: middle;
+    margin: 20px 0;
+    line-height: 45px;
+}
+
+.div-user-options>a {
+    margin-left: 10px;
+}
+
+#div-user-buttons {
+    position: relative;
+    float: right;
+}
+
+#div-user-information {
+    left: 0;
+    line-height: 2;
+    position: absolute;
+    top: -8px;
+    min-width: 560px !important;
+    width: 560px !important;
+}
+
+a.img-overwrite-appstore>img {
+    width: 157px;
+    height: 55px;
+}
+
+a.img-overwrite-android>img {
+    width: 54px;
+    height: 55px;
+}
+
+a.img-overwrite-chrome>img {
+    height: 127px;
+    width: 290px;
+}
+
+.div-mensajes-cuenta {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.size-13 {
+    font-size: 13px;
+}
+
+.modal-notificaciones {
+    width: 35% !important;
+}
+
+.notificacion-fecha {
+    font-style: italic;
+    color: grey;
+    display: block;
+    font-size: 12px;
+}
+
+.notificacion-detalle {
+    margin-top: 5px;
+}
+
+.h1_db {
+    animation: apareceh1 .5s ease-in-out;
+    display: block;
+    position: absolute;
+    color: white !important;
+    text-align: center;
+    left: 30%;
+}
+
+@keyframes apareceh1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#enterado {
+    font-size: 30px;
+    display: none;
+}
+
+.h2_db {
+    animation: apareceh2 1.5s ease-in-out;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.7em;
+    display: block;
+    position: absolute;
+    color: white !important;
+    font-weight: lighter;
+    top: 60px;
+    text-align: center;
+}
+
+@keyframes apareceh2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#texto_2 {
+    top: 295px;
+    margin: auto;
+    position: relative;
+    display: block;
+    font-size: 20px;
+}
+
+#firma {
+    top: 375px;
+    left: 320px;
+    font-size: 20px;
+}
+
+#contenedor_db {
+    font-family: ubuntu !important;
+    display: inline-block;
+    z-index: 99;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -465px;
+    margin-top: -250px;
+    width: 927px;
+    height: 500px;
+    background-color: #00aeff;
+    border-radius: 50px;
+    transition: all;
+    animation: aparece 1s ease-in-out;
+    -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    transition-timing-function: cubic-bezier(1, 0, 0, 1)
+}
+
+@keyframes aparece {
+    from {
+        transform: scale(0, 0);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.hr_db {
+    animation: aparecehr 1s ease-in-out;
+    color: white !important;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left: 110px;
+    top: 360px;
+}
+
+@keyframes aparecehr {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#ver_datos_bancarios {
+    animation: button1 1.5s ease-in-out;
+    transform-origin: left;
+    display: block;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #fcb14b;
+    border: none;
+    top: 190px;
+    left: 330px;
+    font-family: ubuntu !important;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px;
+    width: 260px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px #D08D33;
+}
+
+@keyframes button1 {
+    0% {
+        transform: scale(0, 1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1, 1);
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, -15px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#enterado {
+    animation: button2 1s ease-in-out;
+    font-size: 10px;
+    transform-origin: left;
+    display: block;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #98bc24;
+    border: none;
+    top: 418px;
+    left: 740px;
+    font-family: ubuntu !important;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px #7d9322;
+}
+
+@keyframes button2 {
+    0% {
+        transform: scale(0, 1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+.button:hover {
+    background-color: #fcb14b;
+}
+
+.button:active {
+    background-color: #fcb14b;
+    box-shadow: 0 5px #A77026;
+    transform: translateY(4px);
+}
+
+
+/* CSS Document */
+
+#contenedor_vigencia_ciec {
+    width: 620px;
+    height: 450px;
+    background-color: #1992be;
+    border-radius: 15px;
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -310px;
+    margin-top: -225px;
+    animation: entrada .8s cubic-bezier(1, 0, 0, 1);
+    transform-origin: center;
+    z-index: 99;
+}
+
+@keyframes salida {
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(0, 0)
+    }
+}
+
+.button_ver_planes:active {
+  background-color: #fcb14b;
+  box-shadow: 0 5px #A77026;
+  transform: translateY(4px);
+}
+#giro{
+width:15px;
+height:15px;
+opacity:.5;
+display:block;
+position:absolute;
+left:593px;
+top:9px;
+transition:all 1s;
+transform-origin:center;
+}
+#giro:hover{
+	opacity:1;
+	transform:rotate(180deg);
+	width:17px;
+	height:17px;
+	top:7px;
+
+	}
+
+ #bodymovin{
+        background-color:rgba(0,0,0,0.00);
+        width:50%;
+        height:50%;
+        display:block;
+	left:150px;
+	top:-40px;
+	margin:0;
+        overflow: hidden;
+        transform: translate3d(0,0,0);
+        transform: scale(2,2);
+        text-align: center;
+        opacity: 1;
+  z-index:1;
+ }
+	/* position:absolute; */
+@keyframes entradaboton {
+    0% {
+        transform: scale(0, 0)
+    }
+    80% {
+        transform: scale(0, 0)
+    }
+    to {
+        transform: scale(1, 1)
+    }
+}
+
+@keyframes entrada {
+    from {
+        transform: scale(0, 0)
+    }
+    to {
+        transform: scale(1, 1)
+    }
+}
+
+@keyframes fadein1 {
+    0% {
+        opacity: 0;
+        top: 85px;
+    }
+    60% {
+        opacity: 0;
+        top: 85px;
+    }
+    to {
+        opacity: 1;
+        top: 130px;
+    }
+}
+
+@keyframes fadein2 {
+    0% {
+        opacity: 0;
+        top: 137px;
+    }
+    60% {
+        opacity: 0;
+        top: 137px;
+    }
+    to {
+        opacity: 1;
+        top: 200px;
+    }
+}
+
+#primer_texto {
+    animation: fadein1 2s ease;
+    top: 130px;
+    margin: 0 50px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    display: block;
+    position: absolute;
+    font-family: ubuntu;
+}
+
+#span_bm {
+    animation: fadein2 2.5s ease;
+    top: 200px;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    display: block;
+    position: absolute;
+    font-family: ubuntu;
+}
+
+#button2_ver_planes {
+    animation: entradaboton 2.5s cubic-bezier(1, 0, 0, 1);
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #fcb14b;
+    border: none;
+    top: 370px;
+    left: 250px;
+    font-family: ubuntu;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 120px;
+    height: 35px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px #A77026;
+}
+
+.button_ver_planes:hover {
+    background-color: #fcb14b;
+}
+
+.button_ver_planes:active {
+    background-color: #fcb14b;
+    box-shadow: 0 5px #A77026;
+    transform: translateY(4px);
+}
+
+#giro {
+    width: 15px;
+    height: 15px;
+    opacity: .5;
+    display: block;
+    position: absolute;
+    left: 593px;
+    top: 9px;
+    transition: all 1s;
+    transform-origin: center;
+}
+
+#giro:hover {
+    opacity: 1;
+    transform: rotate(180deg);
+    width: 17px;
+    height: 17px;
+    top: 7px;
+}
+
+#bodymovin {
+    background-color: rgba(0, 0, 0, 0.00);
+    width: 50%;
+    height: 50%;
+    display: block;
+    left: 150px;
+    top: -40px;
+    margin: 0;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+}
+
+@media screen and (min-device-width:500px) and (max-device-width:1024px) {
+    /*MD*/
+    #contenedor_db {
+        width: 800px;
+        transition: all ease-in-out;
+    }
+    #texto_2 {
+        display: none;
+    }
+    h1 {
+        left: 135px;
+        top: -20px;
+        left: 116px;
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #ver_datos_bancarios {
+        left: 280px;
+        top: 260px;
+    }
+    hr {
+        left: 90px;
+        height: 1px;
+        width: 600px;
+        top: 350px;
+    }
+    #firma {
+        top: 370px;
+        left: 255px;
+    }
+    #enterado {
+        display: none;
+    }
+    #enterado {
+        display: inline-block;
+        position: relative;
+        color: white !important;
+        left: 610px;
+        top: 410px;
+    }
+}
+#dd-datos-empresa-modals .modal-content {
+  border: none;
+}
+#ProcesoCompleto {
+  /*Todo El Proceso */
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  margin-left: 11%;
+  /*CSS Archivo #0*/
+  /*CSS Archivo #1*/
+  /*Informacion de Empresa Primeros 6 espacios*/
+  /*Placeholders de los inputs*/
+  /*Segunda sección de Datos de empresa*/
+  /*Segunda sección y places holders*/
+  /*flechas*/
+  /*CSS Archivo #2*/
+  /*HOOVERS*/
+  /* CSS Archivo #3 */
+  /* CSS Archivo #4 */
+  /* CSS Archivos #5 */
+  /* CSS Archivos #6 */
+  /*el TOP tiene que estar en 30px */
+  /*FLECHAS*/
+  /*Animacion FLECHAS KEYFRAMES*/
+  /*Animacion TEXTOS KEYFRAMES*/
+  /*CIERRA FLECHAS*/
+  /* CSS Archivos #7 */
+  /* POSIBLEMENTE AFECTE */
+  /* POSIBLEMENTE AFECTE */
+  /* CSS Archivos #8 */
+  /* CSS Archivos #9 */
+  /* CSS Archivos #10 */
+}
+#ProcesoCompleto img {
+  cursor: pointer;
+  height: auto;
+  width: auto;
+}
+
+#ProcesoCompleto input{
+  color:grey;
+  font-size:10px;
+}
+#ProcesoCompleto #TODO_EmpiezaProceso {
+  display: block;
+  position: absolute;
+  transition: all 1s;
+  transform: scale(1.5, 1.5);
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+}
+@keyframes botton {
+  0% {
+    transform: scale(0, 0);
+  }
+  40% {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #Primerobodymovin {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  z-index: 3;
+  position: absolute;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #container {
+  width: 380px;
+  height: 380px;
+  overflow: hidden;
+  display: block;
+  z-index: 3;
+  position: relative;
+  background: rgba(10, 10, 10, 0);
+  border-radius: 20px;
+}
+#ProcesoCompleto #circulo {
+  width: 580px;
+  height: 580px;
+  top: -100px;
+  left: -100px;
+  transform-origin: center;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  background: #26a0c9;
+  animation: Primeroappear2 0.8s cubic-bezier(1, 0, 0, 1);
+  z-index: 2;
+}
+#ProcesoCompleto #circulo2 {
+  width: 580px;
+  height: 580px;
+  top: -100px;
+  left: -100px;
+  transform-origin: center;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  background: #29ABD6;
+  animation: Primeroappear2 0.5s cubic-bezier(1, 0, 0, 1);
+  z-index: 1;
+  transform: scale(1.5, 1.5)!important;
+}
+#ProcesoCompleto body {
+  animation: Primerodesaparece 1s forwards;
+  animation-delay: 5s;
+  background-color: grey;
+}
+#ProcesoCompleto #bodymovin_Paloma {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 30px;
+  left: 20px;
+  z-index: 400;
+  transform-origin: center;
+}
+#ProcesoCompleto #bodymovin_Paloma path {
+  fill: white;
+}
+@keyframes Primeroappear1 {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+@keyframes Primeroappear2 {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #DescripcionDATOEMPRESA {
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 102%;
+  height: 33%;
+  opacity: 0.78;
+}
+#ProcesoCompleto #InfodeContacto_User {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 99px;
+  left: 23px;
+  width: 90px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  animation: Archivo1_User .5s;
+  cursor: default;
+}
+@keyframes Archivo1_User {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #Iniciales {
+  display: inline-block;
+  position: absolute;
+  left: -143px;
+}
+#ProcesoCompleto .a {
+  display: block;
+  position: absolute;
+  margin-left: 30px;
+  top: 92px;
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  transition: all 0.5s linear;
+  font-family: ubuntu;
+  background-color: transparent;
+}
+#ProcesoCompleto .a:hover {
+  background-color: white;
+}
+#ProcesoCompleto hr {
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 34px;
+  width: 270px;
+  border: 1px solid grey;
+  opacity: .2;
+}
+#ProcesoCompleto body {
+  background-color: grey;
+  font-family: ubuntu;
+}
+
+#ProcesoCompleto input, #ProcesoCompleto select{
+  font-weight: normal;
+}
+#ProcesoCompleto #nombre_usuario {
+  top: 0px;
+  left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  transition: all 0.2s linear;
+  font-family: ubuntu;
+  position: absolute;
+  height: 18px;
+  width: 100px;
+}
+#ProcesoCompleto #apellido_usuario {
+  top: 0px;
+  left: 206px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  transition: all 0.2s linear;
+  font-family: ubuntu;
+  position: absolute;
+  height: 18px;
+  width: 100px;
+}
+#ProcesoCompleto #empresa_razon_social {
+  top: 25px;
+  left: 100px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  transition: all 0.2s linear;
+  font-family: ubuntu;
+  position: absolute;
+  height: 18px;
+  width: 218px;
+}
+#ProcesoCompleto #empresa_nombre {
+  top: 51px;
+  left: 100px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  transition: all 0.2s linear;
+  font-family: ubuntu;
+  position: absolute;
+  height: 18px;
+  width: 218px;
+}
+#ProcesoCompleto #empresa_rfc {
+  top: 76px;
+  left: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  font-family: ubuntu;
+  position: absolute;
+  height: 18px;
+  width: 90px;
+}
+#ProcesoCompleto #empresa_regimen_fiscal {
+  top: 76px;
+  left: 100px;
+  display: inline-block;
+  opacity: 1;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  font-family: ubuntu;
+  font-size: 10px;
+  color: grey;
+  position: absolute;
+  height: 18px;
+  width: 218px;
+  transition: all 1s linear;
+}
+#ProcesoCompleto #nombre_usuario::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #apellido_usuario::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #empresa_razon_social::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #empresa_nombre::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #empresa_rfc::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #empresa_regimen_fiscal::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #TODO_datosEmpresa {
+  display: none;
+  position: absolute;
+  transform: scale(1.3, 1.3);
+  /*Aqui ppodemos Escalar toda la ventana*/
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+}
+#ProcesoCompleto #container_DEmpresa {
+  display: inline-block;
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0;
+  animation: fadein .5s ease-in-out;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #Titulo {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 500;
+  width: 100%;
+  background-color: #00aeff;
+  height: 35px;
+}
+#ProcesoCompleto #datosEmpresa_h1 {
+  display: block;
+  position: absolute;
+  text-align: center;
+  left: 110px;
+  margin: 0;
+  top: 5px;
+  font-family: ubuntu;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+#ProcesoCompleto #IDcontainer {
+  display: block;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  margin: 0;
+  top: 90px;
+  left: 20px;
+  width: 337px;
+  height: 245px;
+  font-family: ubuntu;
+  background-color: #D7FAFF;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  overflow: hidden;
+  animation: fadein2 1s ease-in-out forward;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+@keyframes fadein2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #BarraID {
+  color: white;
+  display: none;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  margin: 0;
+  bottom: 250px;
+  width: 337px;
+  height: 200px;
+  font-family: ubuntu;
+  background-color: #00aeff;
+  font-weight: bold;
+  font-size: 18px;
+  overflow: hidden;
+  top: -175px;
+}
+#ProcesoCompleto #Location {
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: auto;
+  left: 16px;
+  top: 120px;
+  cursor: default;
+}
+#ProcesoCompleto #circuloFoto {
+  background: white;
+  border-radius: 100%;
+  top: 15px;
+  left: 17px;
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  position: absolute;
+  background-image: url("");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ProcesoCompleto #Perfil {
+  display: block;
+  position: absolute;
+  display: none;
+}
+#ProcesoCompleto #Calle {
+  top: 120px;
+  left: 10px;
+}
+#ProcesoCompleto #Colonia {
+  top: 140px;
+  left: 10px;
+}
+#ProcesoCompleto #Estado {
+  top: 160px;
+  left: 10px;
+}
+#ProcesoCompleto #Ciudad {
+  top: 180px;
+  left: 10px;
+}
+#ProcesoCompleto #C_P {
+  top: 200px;
+  left: 10px;
+}
+#ProcesoCompleto #Pagina_Web {
+  top: 220px;
+  left: 10px;
+}
+#ProcesoCompleto #Calle::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #Colonia::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #Estado::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #Ciudad::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #C_P::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto #Pagina_Web::placeholder {
+  color: grey;
+  opacity: .8;
+}
+#ProcesoCompleto div #circuloFoto label {
+  font-family: ubuntu;
+  color: grey;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  left: 13px;
+  opacity: .6;
+  transition: all .5s;
+}
+#ProcesoCompleto div #circuloFoto label:hover {
+  opacity: 1;
+}
+
+#ProcesoCompleto #Texto_C_DEmpresa {
+  cursor:pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 353px;
+  left: 300px;
+  transition: all .5s;
+  opacity: 1;
+}
+#ProcesoCompleto .mover_texto_cont {
+  left: 320px !important;
+  opacity: 0 !important;
+}
+
+#ProcesoCompleto .mover_texto_reg {
+  left: 18px !important;
+  opacity: 0 !important;
+}
+#ProcesoCompleto #Flecha_C_DEmpresa {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  height: auto;
+  top: 350px;
+  left: 345px;
+  z-index: 5;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_DEmpresa {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  transform: scale(-1, 1);
+  left: 15px;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_DEmpresa:hover {
+  opacity: 1;
+  transform: scale(-1.4, 1.4);
+}
+#ProcesoCompleto #Flecha_C_DEmpresa:hover {
+  opacity: 1;
+  transform: scale(1.4, 1.4);
+}
+#ProcesoCompleto #nombre_usuario, #ProcesoCompleto #apellido_usuario, #ProcesoCompleto #empresa_razon_social, #ProcesoCompleto #empresa_nombre, #ProcesoCompleto #empresa_rfc, #ProcesoCompleto #empresa_regimen_fiscal {
+  background-color: transparent;
+  box-shadow: none;
+}
+#ProcesoCompleto #nombre_usuario:hover, #ProcesoCompleto #apellido_usuario:hover, #ProcesoCompleto #empresa_razon_social:hover, #ProcesoCompleto #empresa_nombre:hover, #ProcesoCompleto #empresa_rfc:hover, #ProcesoCompleto #empresa_regimen_fiscal:hover {
+  background-color: white;
+}
+#ProcesoCompleto #Anuncio_DatosEmpresa, #ProcesoCompleto .div_alert_error {
+  width: 380px;
+  height: 30px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  border-radius: 0 0 5px 5px;
+  left: 0px;
+  opacity: 1;
+  transition: .7s;
+}
+#ProcesoCompleto .show_error {
+  top: 34px !important;
+}
+#ProcesoCompleto .show_error_imp {
+  top: 29px !important;
+}
+
+#ProcesoCompleto #Anuncio_DatosEmpresa img, #ProcesoCompleto .div_alert_error img{
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+#ProcesoCompleto #Anuncio_DatosEmpresa p, #ProcesoCompleto .div_alert_error p{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50px;
+  color: white;
+  top: -1px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#ProcesoCompleto .PuntosA {
+  display: inline-block;
+  position: absolute;
+  top: 360px;
+  left: 170px;
+}
+#ProcesoCompleto .A1 {
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  background-color: #00aeff;
+  left: 10px;
+  opacity: .6;
+}
+#ProcesoCompleto .A2 {
+  opacity:1;
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  background-color: #00aeff;
+  left: 20px;
+  opacity: .6;
+}
+#ProcesoCompleto .A3 {
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  background-color: #00aeff;
+  left: 30px;
+  opacity: .6;
+}
+#ProcesoCompleto .A4 {
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  background-color: #00aeff;
+  left: 40px;
+  opacity: .6;
+}
+#ProcesoCompleto .iniciales {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  color: grey;
+  font-size: 25px;
+}
+#ProcesoCompleto #Nombre, #ProcesoCompleto #Nombre_cont {
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 16px;
+}
+#ProcesoCompleto #Apellido, #ProcesoCompleto #Apellido_cont {
+  display: inline-block;
+  position: absolute;
+  left: 35px;
+  top: 16px;
+}
+#ProcesoCompleto #DescripcionDATOUSUARIO {
+  display: block;
+  position: absolute;
+  width: 95%;
+  height: 32%;
+  left: -11px;
+  opacity: .70;
+}
+#ProcesoCompleto #circuloFotoIContacto {
+  display: inline-block;
+  /* display: inline-block; */
+  position: absolute;
+  border: 2px solid #6DD0FF;
+  top: 107px;
+  left: 34px;
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+}
+#ProcesoCompleto #InicialesIContacto {
+  display: inline-block;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+#ProcesoCompleto #container_IContacto {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  z-index: 0;
+  overflow: hidden;
+  animation: fadein 2s forwards;
+  opacity: 0;
+}
+#ProcesoCompleto .animate {
+  animation: mostrar 1.5s cubic-bezier(1, 0, 0, 1);
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #TituloContainer {
+  background-color: #00aeff;
+  width: 400;
+  z-index: 500;
+  height: 35px;
+  display: block;
+  position: relative;
+  top: -20px;
+}
+#ProcesoCompleto #InformacionContacto_h1 {
+  display: block;
+  position: relative;
+  color: white !important;
+  z-index: 1;
+  font-family: ubuntu;
+  font-size: 20px;
+  top: 5px;
+  text-align: center;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+#ProcesoCompleto body {
+  background-color: grey;
+}
+#ProcesoCompleto #bodymovin {
+  background-color: transparent;
+  width: 40%;
+  height: 40%;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  left: 110px;
+  top: 65px;
+}
+#ProcesoCompleto #bodymovin2 {
+  background-color: transparent;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  left: 331px;
+  top: 101px;
+}
+#ProcesoCompleto #bodymovin3 {
+  background-color: transparent;
+  width: 5%;
+  height: 5%;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  text-align: center;
+  opacity: 1;
+  left: 331px;
+  top: 137px;
+}
+#ProcesoCompleto #img1 {
+  top: 100px;
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 133px;
+  animation: mov1 1s cubic-bezier(1, 0, 0, 1) forwards;
+  -webkit-animation-delay: .6s;
+  animation-delay: .4s;
+  transform: scale(0, 0);
+}
+#ProcesoCompleto #img2 {
+  top: 131px;
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 134px;
+  animation: mov1 1s cubic-bezier(1, 0, 0, 1) forwards;
+  -webkit-animation-delay: .8s;
+  animation-delay: .6s;
+  transform: scale(0, 0);
+}
+#ProcesoCompleto #img3 {
+  top: 164px;
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 134px;
+  animation: mov1 1s cubic-bezier(1, 0, 0, 1) forwards;
+  height: 15px;
+  transform: scale(0, 0);
+  opacity: .6;
+  -webkit-animation-delay: 1s;
+  animation-delay: .6s;
+}
+@keyframes mov1 {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #TODO_InfoDeContacto input {
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  transition: all 0.2s linear;
+  font-family: ubuntu;
+  font-size: 10px;
+  color: #222222;
+  position: relative;
+  height: 21px;
+  width: 164px;
+  left: 161px;
+  top: 34px;
+  transform-origin: left;
+  animation: mostrar 0.5 cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #InfoContacto-p {
+  font-family: ubuntu;
+  color: grey;
+  display: block;
+  position: absolute;
+  top: 50px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 10px;
+  opacity: 0;
+  animation: fadein 1.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+@keyframes mostrar {
+  from {
+    transform: scale(0, 1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto ::-webkit--placeholder {
+  color: black;
+  opacity: .4;
+  position: absolute;
+  display: block;
+}
+#ProcesoCompleto :hover::-webkit-input-placeholder {
+  /* opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out; */
+}
+#ProcesoCompleto #F_Regresar {
+  transition: all .5s;
+  display: inline-block;
+  position: absolute;
+  top: 347.6px;
+  transform: scaleX(-1);
+  left: 11px;
+  opacity: .5;
+  width: 15px;
+  height: 15px;
+  transform-origin: center;
+  z-index: 4;
+}
+#ProcesoCompleto #F_Continuar {
+  transition: all .5s;
+  display: inline-block;
+  position: absolute;
+  top: 347.6px;
+  left: 350px;
+  width: 15px;
+  height: 15px;
+  opacity: .5;
+  transform-origin: center;
+  z-index: 4;
+}
+#ProcesoCompleto #F_Regresar:hover {
+  opacity: 1;
+  transform: scale(-1.2, 1.2);
+  left: 9px;
+}
+#ProcesoCompleto #F_Continuar:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2);
+  left: 352px;
+}
+
+#ProcesoCompleto #Continuar {
+  cursor:pointer;
+  font-family: ubuntu;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  z-index: 4;
+  font-size: 8px;
+  color: #636262;
+  left: 300px;
+  opacity: .7;
+  transition: all 1s;
+}
+#ProcesoCompleto #Anuncio_Correo {
+  background-color: white;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  top: 162px;
+  left: 105px;
+  width: 220px;
+  height: 40px;
+  z-index: -1;
+  transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Anuncio_Telefono {
+  background-color: white;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  top: 93px;
+  left: 205px;
+  width: 140px;
+  height: 35px;
+  z-index: -4;
+  transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Text_Announcment {
+  display: inline-block;
+  position: absolute;
+  font-family: ubuntu;
+  color: grey;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-left: 35px;
+  top: 9px;
+}
+#ProcesoCompleto #Text_Phone {
+  display: inline-block;
+  position: absolute;
+  font-family: ubuntu;
+  color: grey;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-left: 35px;
+  top: 12px;
+}
+#ProcesoCompleto #exclamation {
+  display: block;
+  position: absolute;
+  width: 20px;
+  top: 11px;
+  left: 8px;
+}
+#ProcesoCompleto #exclamation2 {
+  display: block;
+  position: absolute;
+  width: 20px;
+  top: 7px;
+  left: 6px;
+}
+#ProcesoCompleto #circulo_Salida {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+}
+#ProcesoCompleto #X_Salida {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #X_Salida:hover {
+  transform: scale(1.8, 1.8) rotate(180deg);
+}
+#ProcesoCompleto #salida_InfoDeContacto {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  top: 8px;
+  left: 355px;
+  transform-origin: center;
+  transform: scale(0.65, 0.65);
+  animation: FadeinX_InfoDeContacto forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+}
+@keyframes FadeinX_InfoDeContacto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #TODO_InfoDeContacto {
+  display:none;
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+  transform: scale(1.3, 1.3);
+}
+#ProcesoCompleto #Elegir_Contacto {
+  display: inline-block;
+  position: absolute;
+  top: 206px;
+  left: 38px;
+  font-size: 11.5px;
+  font-weight: lighter;
+  color: grey;
+  opacity: 1;
+  transition: all .5s;
+}
+#ProcesoCompleto #ImagenFormaDeContacto1 {
+  width: 22px;
+  left: 10.5px;
+  top: 9px;
+  display: block;
+  position: absolute;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transform: scale(1,1)
+}
+#ProcesoCompleto #ImagenFormaDeContacto2 {
+  width: 17px;
+  left: 13px;
+  top: 8px;
+  display: block;
+  position: absolute;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transform: scale(1,1)
+}
+#ProcesoCompleto #ImagenFormaDeContacto3 {
+  width: 24px;
+  left: 10px;
+  top: 12.5px;
+  display: block;
+  position: absolute;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transform: scale(1,1)
+}
+#ProcesoCompleto #ImagenFormaDeContacto4 {
+  width: 25px;
+  left: 10px;
+  top: 9px;
+  width: 23px;
+  display: block;
+  position: absolute;
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+  transform: scale(1,1);
+}
+#ProcesoCompleto #FormaDeContacto1 {
+  display: inline-block;
+  position: absolute;
+  top: 246px;
+  left: 35px;
+  width: 43px;
+  height: 43px;
+  background-color: #00aeff;
+  border-radius: 100%;
+  transition: all 0.8s cubic-bezier(0, 0, 0, 1);
+  animation: Archivo1_User 1s;
+  cursor: pointer;
+  transform: scale(1,1)
+}
+#ProcesoCompleto #FormaDeContacto2 {
+  display: inline-block;
+  position: absolute;
+  top: 246px;
+  width: 43px;
+  left: 121px;
+  height: 43px;
+  background-color: #00aeff;
+  border-radius: 100%;
+  transition: all 0.8s cubic-bezier(0, 0, 0, 1);
+  animation: Archivo1_User 1s;
+  cursor: pointer;
+  transform: scale(1,1)
+}
+#ProcesoCompleto #FormaDeContacto3 {
+  display: inline-block;
+  position: absolute;
+  top: 246px;
+  width: 43px;
+  left: 209px;
+  height: 43px;
+  background-color: #00aeff;
+  border-radius: 100%;
+  transition: all 0.8s cubic-bezier(0, 0, 0, 1);
+  animation: Archivo1_User 1s;
+  cursor: pointer;
+  transform: scale(1,1)
+}
+#ProcesoCompleto #FormaDeContacto4 {
+  display: inline-block;
+  position: absolute;
+  top: 246px;
+  width: 43px;
+  left: 294px;
+  height: 43px;
+  background-color: #00aeff;
+  border-radius: 100%;
+  transition: all 0.8s cubic-bezier(0, 0, 0, 1);
+  animation: Archivo1_User 1s;
+  cursor: pointer;
+  transform: scale(1,1)
+}
+#ProcesoCompleto #FormaDeContacto1:hover {
+  background-color: #008ED0;
+}
+#ProcesoCompleto #FormaDeContacto2:hover {
+  background-color: #008ED0;
+}
+#ProcesoCompleto #FormaDeContacto3:hover {
+  background-color: #008ED0;
+}
+#ProcesoCompleto #FormaDeContacto4:hover {
+  background-color: #008ED0;
+}
+#ProcesoCompleto #Contacto_TelefonoFijo {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  font-weight: lighter;
+  left: 27px;
+  top: 296px;
+  transition: all 1s;
+  animation: Archivo1_User 1.5s;
+}
+#ProcesoCompleto #Contacto_Celular {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  left: 127px;
+  top: 296px;
+  transition: all 1s;
+  animation: Archivo1_User 1.5s;
+  font-weight: lighter;
+}
+#ProcesoCompleto #Contacto_CorreoElectronico {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  left: 189px;
+  top: 296px;
+  transition: all 1s;
+  animation: Archivo1_User 1.5s;
+  font-weight: lighter;
+}
+#ProcesoCompleto #Contacto_Whatsapp {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  left: 294px;
+  top: 296px;
+  transition: all 1s;
+  animation: Archivo1_User 1.5s;
+  transform: scale(1,1)
+}
+#ProcesoCompleto #AvisoDePrivacidad {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  left: 59px;
+  top: 321px;
+  transition: all 1s;
+  font-style: oblique;
+  opacity: 0;
+  animation: Fadein_AvisoDePrivacidad 2s forwards;
+}
+@keyframes Fadein_AvisoDePrivacidad {
+  from {
+    top: 290px;
+    opacity: 0;
+  }
+  to {
+    top: 321px;
+    opacity: .7;
+  }
+}
+#ProcesoCompleto #DescripcionGIRO {
+  display: block;
+  position: absolute;
+  top: -175px;
+  left: 6px;
+  height: 130%;
+  width: 103%;
+  opacity: .78;
+}
+#ProcesoCompleto #otro_giro {
+  display: none;
+  position: absolute;
+  top: 260px;
+  left: 119px;
+  width: 150px;
+  height: 23px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #747474;
+  font-family: ubuntu;
+  font-size: 10.5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all .4s;
+  animation: Selected_Tag 1s cubic-bezier(1, 0, 0, 1) normal;
+}
+#ProcesoCompleto #GIRObodymovin {
+  background-color: transparent;
+  width: 17%;
+  left: 290px;
+  top: 110px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #GIRObodymovin2 {
+  background-color: transparent;
+  display: block;
+  left: 118px;
+  top: 118px;
+  width: 15%;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #GIRObodymovin3 {
+  background-color: transparent;
+  width: 17%;
+  top: 110px;
+  left: 25px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #GIRObodymovin4 {
+  background-color: transparent;
+  width: 27%;
+  top: 100px;
+  left: 189px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #container_Giro {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  z-index: 0;
+  overflow: hidden;
+  animation: fadein 1.5s;
+  opacity: 1;
+}
+#ProcesoCompleto #GIROTituloContainer {
+  background-color: #00aeff;
+  width: 400;
+  z-index: 11;
+  height: 35px;
+  display: block;
+  position: relative;
+  top: -20px;
+}
+#ProcesoCompleto #TextoGiro_p {
+  display: block;
+  position: relative;
+  color: grey;
+  z-index: 1;
+  font-family: ubuntu;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 10px;
+  animation: fadein2 1.5s;
+}
+#ProcesoCompleto #TextoGiro_span {
+  display: block;
+  position: relative;
+  color: white!important;
+  z-index: 1;
+  font-family: ubuntu;
+  font-size: 20px;
+  top: 5px;
+  text-align: center;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+#ProcesoCompleto .Titulos {
+  font-family: ubuntu;
+  color: grey;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  margin-right: 12px;
+  margin-left: 14px;
+  top: 100px;
+  text-align: center;
+}
+#ProcesoCompleto #empleados_tag {
+  display: block;
+  position: absolute;
+  top: 295px;
+  left: 120px;
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #747474;
+  font-family: ubuntu;
+  font-size: 10.5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 130px 5px;
+  background-size: 13px;
+  transition: all .4s;
+  animation: Selected_Tag 1.8s cubic-bezier(1, 0, 0, 1) normal;
+}
+#ProcesoCompleto #giro_tag {
+  display: block;
+  position: absolute;
+  top: 256px;
+  left: 120px;
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #747474;
+  font-family: ubuntu;
+  font-size: 10.5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 130px 5px;
+  background-size: 13px;
+  transition: all .4s;
+  animation: Selected_Tag 1.8s cubic-bezier(1, 0, 0, 1) normal;
+}
+#ProcesoCompleto #giro_tag:hover {
+  border: 1px solid #26a0c9;
+  background-size: 11px;
+  background-position: 130px 7px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#ProcesoCompleto #empleados_tag:hover {
+  border: 1px solid #26a0c9;
+  background-size: 11px;
+  background-position: 132px 7px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#ProcesoCompleto #giro_tag, #ProcesoCompleto #empleados_tag {
+  padding-left: 5px;
+}
+#ProcesoCompleto #P_Servicio {
+  opacity: 0;
+  top: 185px;
+  left: 7px;
+  animation: P_S 1s 1 forwards;
+  -webkit-animation-delay: .3s;
+  position: absolute;
+}
+#ProcesoCompleto #Produccion {
+  opacity: 0;
+  top: 185px;
+  animation: Prod 1s 1 forwards;
+  left: 110px;
+  -webkit-animation-delay: .6s;
+  position: absolute;
+}
+#ProcesoCompleto #Comercio {
+  opacity: 0;
+  top: 185px;
+  left: 287px;
+  animation: Comerc 1s 1 forwards;
+  -webkit-animation-delay: 1.2s;
+  position: absolute;
+}
+#ProcesoCompleto #E_Servicio {
+  opacity: 0;
+  animation: E_S 1s 1 forwards;
+  top: 185px;
+  left: 207px;
+  display: inline-block;
+  -webkit-animation-delay: .9s;
+  position: absolute;
+}
+#ProcesoCompleto #Texto_R_Giro {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 353px;
+  left: 40px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Texto_C_Giro {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 353px;
+  left: 300px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_C_Giro {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 345px;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_Giro {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  transform: scale(-1, 1);
+  left: 15px;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_Giro:hover {
+  opacity: 1;
+  transform: scale(-1.4, 1.4);
+}
+#ProcesoCompleto #Flecha_C_Giro:hover {
+  opacity: 1;
+  transform: scale(1.4, 1.4);
+}
+@keyframes P_S {
+  from {
+    opacity: 0;
+    top: 180px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Prod {
+  from {
+    opacity: 0;
+    top: 180px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Comerc {
+  from {
+    opacity: 0;
+    top: 180px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes E_S {
+  from {
+    opacity: 0;
+    top: 180px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Selected_Tag {
+  0% {
+    transform: scale(0, 1);
+  }
+  70% {
+    transform: scale(0, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #circulo_Salida_Giro {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+}
+#ProcesoCompleto #X_Salida_Giro {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  cursor: pointer;
+}
+#ProcesoCompleto #X_Salida_Giro:hover {
+  transform: scale(1.8, 1.8) rotate(180deg);
+}
+#ProcesoCompleto #salida_Giro {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  transform: scale(0.5, 0.5);
+  top: 6px;
+  left: 351px;
+  animation: FadeinX__Giro forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+}
+@keyframes FadeinX__Giro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #TODO_Giro {
+  display: block;
+  position: absolute;
+  transform: scale(1.3, 1.3);
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+  opacity: 0;
+  transition: all .5s;
+}
+#ProcesoCompleto .links {
+  color: white;
+  font-family: ubuntu;
+  /* display: inline-block;
+  position: absolute; */
+  text-align: center;
+  top: 280px;
+  font-size: 10px;
+  opacity: 0.5;
+  animation: fadeIn3 1s ease;
+}
+#ProcesoCompleto .iconosEstamosPorTerminar {
+  width: 35px;
+  height: 36px;
+  /* display: inline-block;
+  position: absolute;
+  top: 280px;
+  left: 70px; */
+  opacity: .5;
+  /* margin-top: -10px;
+  margin-left: -15px; */
+  animation: fadeIn3 1s ease;
+}
+
+#ProcesoCompleto #Texto_R_conversion {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: white;
+  top: 351px;
+  left: 35px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Texto_C_conversion {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: white;
+  top: 351px;
+  left: 305px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_C_conversion {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 345px;
+  opacity: .7;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_conversion {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  transform: scale(-1, 1);
+  left: 15px;
+  opacity: .7;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_conversion:hover {
+  opacity: 1;
+  transform: scale(-1.4, 1.4);
+}
+#ProcesoCompleto #Flecha_C_conversion:hover {
+  opacity: 1;
+  transform: scale(1.4, 1.4);
+}
+#ProcesoCompleto .puntos-conversion div{
+  background-color: white;
+}
+#ProcesoCompleto #S_button {
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  background-color: #fcb14b;
+  border: none;
+  top: 339px;
+  left: 150px;
+  font-size: 12px;
+  font-family: ubuntu;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  width: 92px;
+  height: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 4px #D08D33;
+  animation: botton 2.4s cubic-bezier(1, 0, 0, 1);
+  transform-origin: center;
+}
+#ProcesoCompleto .S_button:hover {
+  background-color: #fcb14b;
+}
+#ProcesoCompleto .S_button:active {
+  background-color: #fcb14b;
+  box-shadow: 0 5px #A77026;
+  transform: translateY(4px);
+}
+#ProcesoCompleto #circulo {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 135px;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+}
+#ProcesoCompleto #Super_container {
+  height: 380px;
+  width: 380px;
+  background-color: #7e9d1c;
+  border-radius: 14px;
+}
+#ProcesoCompleto #Super_h1 {
+  font-family: ubuntu;
+  color: white!important;
+  font-size: 24px;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 22px;
+  top: 15px;
+  animation: fadeIn 1s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@keyframes botton {
+  0% {
+    transform: scale(0, 1);
+  }
+  70% {
+    transform: scale(0, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #S_bodymovin {
+  display: block;
+  position: relative;
+  width: 50%;
+  top: 35px;
+  left: 90px;
+  height: 50%;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  z-index: 2;
+  margin: 0;
+}
+#ProcesoCompleto #S_bodymovin2 {
+  position: relative;
+  background-color: transparent;
+  width: 70%;
+  height: 20%;
+  left: 58px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  z-index: 3;
+}
+#ProcesoCompleto #TODO_SuperEstamos {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  transition: all 1s;
+  transform: scale(1.3, 1.3);
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+}
+#ProcesoCompleto #tituloOtroMedio {
+  display: block;
+  position: absolute;
+  color: grey;
+  font-size: 10px;
+  margin-top: 6px;
+  margin-left: 104px;
+}
+#ProcesoCompleto #OtrosContactos {
+  display: block;
+  position: absolute;
+  top: 302px;
+  width: 239px;
+  height: 71px;
+  background-color: white;
+  border-radius: 8px;
+  left: 71px;
+  z-index: -1;
+  display: none;
+  opacity: 0;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #opcion_otro {
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  font-size: 10px;
+  color: grey;
+  width: 215px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) inset, 0 -1px 0 rgba(0, 0, 0, 0.07) inset;
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+}
+#ProcesoCompleto #DescripcionCERTIFICADOS {
+  display: block;
+  position: absolute;
+  width: 95%;
+  height: 27%;
+  top: 8px;
+  left: -2px;
+  opacity: .8;
+}
+#ProcesoCompleto #ExplorarSistema {
+  display: initial;
+  position: absolute;
+  color: white;
+  font-family: ubuntu;
+  font-size: 10px;
+  top: 360px;
+  text-decoration: underline;
+  opacity: 1;
+  left: 155px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  cursor: pointer;
+}
+#ProcesoCompleto #ExplorarSistema:hover {
+  font-weight: bold;
+}
+#ProcesoCompleto #button {
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  background-color: #fcb14b;
+  border: none;
+  top: 287px;
+  left: 122px;
+  font-size: 13px;
+  /* padding-bottom: 3px; */
+  font-family: ubuntu;
+  font-weight: bold;
+  color: #FFFFFF;
+  z-index: 5;
+  text-align: center;
+  width: 140px;
+  height: 57px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 4px #D08D33;
+  animation: botton 1.5s cubic-bezier(1, 0, 0, 1);
+  transform-origin: center;
+}
+#ProcesoCompleto #button2 {
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  background-color: #fcb14b;
+  border: none;
+  top: 310px;
+  left: 220px;
+  font-size: 13px;
+  font-family: ubuntu;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 4px #D08D33;
+  animation: botton 1.5s cubic-bezier(1, 0, 0, 1);
+  transform-origin: center;
+}
+@keyframes botton {
+  0% {
+    transform: scale(0, 0);
+  }
+  80% {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto .button:hover {
+  background-color: #fcb14b;
+}
+#ProcesoCompleto .button:active {
+  background-color: #fcb14b;
+  box-shadow: 0 5px #A77026;
+  transform: translateY(4px);
+}
+#ProcesoCompleto #PerfilTermi_container {
+  height: 380px;
+  width: 380px;
+  background-color: #7e9d1c;
+  border-radius: 14px;
+  animation: PerfilTermi_fadein 1s;
+}
+#ProcesoCompleto #ID_Conocer {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 3px;
+  top: 300px;
+  width: 330px;
+  height: 45px;
+  left: 25px;
+  z-index: -5;
+}
+#ProcesoCompleto #Conocer_Sistema {
+  display: block;
+  position: absolute;
+  font-family: ubuntu;
+  color: grey;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  top: 12px;
+}
+#ProcesoCompleto #ID_Continuar_Cong {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 3px;
+  top: 300px;
+  left: 25px;
+  width: 330px;
+  height: 60px;
+  font-weight: 500;
+  z-index: -1;
+}
+#ProcesoCompleto #Continuar_Configuracion {
+  font-family: ubuntu;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: grey;
+  top: 16px;
+  left: 8px;
+  font-weight: bold;
+}
+@keyframes PerfilTermi_fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #PerfilTermi_h1 {
+  font-family: ubuntu;
+  color: white!important;
+  font-size: 24px;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  left: 30px;
+  top: 15px;
+  animation: PerfilTermi_fadeIn 1.0s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto body {
+  background-color: grey;
+}
+#ProcesoCompleto #PerfilTermi_bodymovin {
+  background-color: rgba(1, 1, 1, 0);
+  width: 50%;
+  height: 50%;
+  top: 60px;
+  left: 95px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: relative;
+}
+#ProcesoCompleto #Texto_Content_PerfilEm {
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  margin: 0 5px;
+  font-family: ubuntu;
+  color: white;
+  font-weight: lighter;
+  display: block;
+  animation: PerfilTermi_fadeIn2 1.5s;
+}
+#ProcesoCompleto #TODO_PerfilEm {
+  display: block;
+  position: absolute;
+  transition: all 1s;
+  transform: scale(1.3, 1.3);
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+}
+@keyframes PerfilTermi_fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #SeCargo_CIEC {
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 12%;
+  top: 183px;
+  z-index: 1;
+  left: 59px;
+}
+#ProcesoCompleto #AnuncioNoCargasteLlave {
+  display: block;
+  position: absolute;
+  width: 380px;
+  height: 33px;
+  border-radius: 0 0 10px 10px;
+  top: -4px;
+  opacity: .8;
+  background-color: red;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto div #AnuncioNoCargasteLlave p {
+  display: block;
+  position: absolute;
+  color: white;
+  font-size: 11px;
+  font-family: ubuntu;
+  font-weight: bold;
+  top: -2px;
+  left: 77px;
+}
+#ProcesoCompleto #SeCargo_CIEC2 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 12%;
+  top: 183px;
+  z-index: 1;
+  left: 235px;
+}
+#ProcesoCompleto #SeCargo_CIEC3 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 12%;
+  top: 291px;
+  z-index: 0;
+  left: 255px;
+}
+#ProcesoCompleto #CERTIFbodymovin {
+  background-color: transparent;
+  width: 80%;
+  top: 13px;
+  left: 8px;
+  height: 80%;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #CERTIFbodymovin2 {
+  position: absolute;
+  background-color: transparent;
+  width: 80%;
+  height: 80%;
+  top: 13px;
+  left: 11px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #CERTIFcirculo1 {
+  display: inline-block;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  background-color: #00aeff;
+  position: absolute;
+  left: 125px;
+  top: 90px;
+  transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  /*HACER FUNCION DONDE SALGA*/
+}
+#ProcesoCompleto #CERTIFcirculo2 {
+  display: inline-block;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  background-color: #00aeff;
+  position: absolute;
+  left: 210px;
+  top: 90px;
+  transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  /*HACER FUNCION DONDE SALGA*/
+}
+#ProcesoCompleto #CERTIFcontainer {
+  width: 380px;
+  height: 380px;
+  z-index: -1;
+  background-color: white;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 1s ease;
+  animation: contenedor 1s ease;
+}
+@keyframes contenedor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #CERTIFh1 {
+  display: block;
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  top: 7px;
+  left: 75px;
+  font-family: ubuntu;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+#ProcesoCompleto #unpload {
+  width: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  left: 88px;
+  animation: unpload 1s ease forwards;
+}
+#ProcesoCompleto #unpload2 {
+  width: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  left: 263px;
+  animation: unpload 1s ease forwards;
+}
+#ProcesoCompleto #unpload:hover, #ProcesoCompleto #unpload2:hover {
+  transform: scale(1.1, 1.1);
+  transform-origin: center;
+}
+@keyframes unpload {
+  from {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  to {
+    opacity: 1;
+    top: 320px;
+  }
+}
+#ProcesoCompleto #cer {
+  display: inline-block;
+  overflow: hidden;
+  font-family: ubuntu;
+  color: #00aeff;
+  font-size: 13px;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+  animation: Ext 1.3s ease-in;
+  transition: all 1s;
+}
+
+#ProcesoCompleto #cer_nombre {
+  position: absolute;
+  top: 172px;
+  text-align: center;
+  width: 136px;
+}
+
+#ProcesoCompleto #key_nombre {
+  position: absolute;
+  top: 172px;
+  text-align: center;
+  width: 140px;
+}
+
+#ProcesoCompleto #key {
+  display: inline-block;
+  overflow: hidden;
+  top: 255px;
+  font-family: ubuntu;
+  color: #00aeff;
+  font-size: 13px;
+  left: 258px;
+  opacity: 0;
+  transition: all 1s;
+}
+#ProcesoCompleto #CertificadoT {
+  display: inline-block;
+  position: absolute;
+  top: 230px;
+  font-family: ubuntu;
+  color: #00aeff;
+  font-weight: bold;
+  left: 217px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 1.2s;
+}
+#ProcesoCompleto #LlaveDigitalT {
+  display: inline-block;
+  position: absolute;
+  top: 230px;
+  font-family: ubuntu;
+  color: #00aeff;
+  font-weight: bold;
+  left: 137px;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+  animation: Titulos 1.3s ease-in;
+  font-size: 20px;
+  transition: all 1s;
+}
+#ProcesoCompleto #Descripción {
+  font-family: ubuntu;
+  color: grey;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  margin: 0 10px;
+  top: 45px;
+}
+@keyframes Titulos {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Ext {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #CERTIFTitulo {
+  display: block;
+  position: relative;
+  background-color: #00aeff;
+  height: 8%;
+  z-index: 1;
+}
+#ProcesoCompleto #Cargar1 {
+  display: block;
+  position: absolute;
+  left: 34px;
+  top: -25px;
+}
+#ProcesoCompleto #label1, #ProcesoCompleto #label2 {
+  display: inline-block;
+  position: absolute;
+  color: #00aeff;
+  font-weight: 100;
+  font-size: 10px;
+  top: -30px;
+  text-align: center;
+}
+#ProcesoCompleto .imagenesCertificado {
+  display: block;
+  position: absolute;
+  width: 25px;
+  top: 35px;
+  display: inline-block;
+  position: relative;
+}
+#ProcesoCompleto #f02, #ProcesoCompleto #f03 {
+  display: none;
+}
+#ProcesoCompleto div #file1:hover {
+  top: 274px;
+  cursor: pointer;
+}
+#ProcesoCompleto div #file2:hover {
+  top: 267px;
+}
+#ProcesoCompleto #file1 {
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  top: 278px;
+  left: 134px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #file2 {
+  display: inline-block;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  top: 271px;
+  left: 264px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  opacity: 0;
+}
+#ProcesoCompleto #flecha1 {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 345px;
+  width: 15px;
+  transition: all .5s;
+  opacity: .8;
+  animation: intro_fd 1s ease-in-out;
+}
+#ProcesoCompleto #certificado_cargado p{
+  padding: 15px;
+  font-family: ubuntu;
+  font-size: 13px;
+}
+#ProcesoCompleto #subir_denuevo{
+  cursor: pointer;
+  color: #00aeff;
+}
+
+
+#ProcesoCompleto #ConoceMas {
+  display: block;
+  position: absolute;
+  top: 355px;
+  left: 19px;
+  text-decoration: none;
+  color: grey;
+  font-family: ubuntu;
+  font-size: 9px;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  background-color: transparent;
+}
+#ProcesoCompleto #ConoceMas:hover {
+  top: 355px;
+  font-weight: bold;
+  background-color: transparent;
+}
+#ProcesoCompleto #flecha2 {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 20px;
+  width: 15px;
+  transform: rotate(180deg);
+  transition: all .5s;
+  opacity: .8;
+  animation: intro_fi 1s ease-in-out;
+}
+@keyframes intro_fd {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(1.4, 1.4);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes intro_fi {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(-1.4, -1.4);
+  }
+  100% {
+    transform: scale(-1, -1);
+  }
+}
+@keyframes intro_Regresar {
+  from {
+    left: 16px;
+    opacity: 0;
+  }
+  to {
+    left: 42px;
+    opacity: 1;
+  }
+}
+@keyframes intro_Guardar {
+  from {
+    left: 328px;
+    opacity: 0;
+  }
+  to {
+    left: 300px;
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #flecha1:hover {
+  transform: scale(1.4, 1.4);
+  opacity: 1;
+}
+#ProcesoCompleto #flecha2:hover {
+  transform: scale(-1.4, -1.4);
+  opacity: 1;
+}
+#ProcesoCompleto #Regresar {
+  cursor:pointer;
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  font-family: ubuntu;
+  top: 351px;
+  left: 42px;
+  color: grey;
+  transition: all 1s;
+  animation: intro_Regresar 1s;
+}
+#ProcesoCompleto #Guardar {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  font-family: ubuntu;
+  top: 353px;
+  left: 300px;
+  color: grey;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  animation: intro_Guardar 1s;
+}
+#ProcesoCompleto #label1 {
+  left: 7px;
+  top: -25px;
+}
+#ProcesoCompleto #password {
+  width: 115px;
+  height: 17px;
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute;
+  box-shadow: none;
+  top: 307px;
+  left: 219px;
+  color: white;
+  background-color: #fff;
+  appearance: none;
+  border: 1px solid #00aeff;
+  padding: 0;
+  transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  color: #00aeff;
+}
+#ProcesoCompleto #circulo_Salida {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+}
+#ProcesoCompleto #X_Salida_Certificados {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #X_Salida_Certificados:hover {
+  transform: scale(1.8, 1.8) rotate(180deg);
+}
+#ProcesoCompleto #salida_Certificados {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  top: 8px;
+  left: 355px;
+  transform-origin: center;
+  transform: scale(0.65, 0.65);
+  animation: FadeinX_InfoDeContacto forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+}
+@keyframes FadeinX_InfoDeContacto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #TODO_Certificado {
+  display: none;
+  position: absolute;
+  transform-origin: center;
+  transform: scale(1.3, 1.3);
+  height: 380px;
+  width: 380px;
+}
+#ProcesoCompleto #Vaciar {
+  display: block;
+  position: absolute;
+  top: 345px;
+  left: 10px;
+  opacity: .2;
+  cursor: pointer;
+}
+#ProcesoCompleto .cambia_font_cer{
+  display: inline-block !important;
+  font-size: 8px !important;
+  max-width: 110px;
+}
+
+#ProcesoCompleto .cambia_font_key{
+  display: inline-block;
+  font-size: 8px !important;
+  max-width: 110px;
+}
+
+#ProcesoCompleto #div-certificado{
+  width: 130px;
+  height: 250px;
+  top: 85px;
+  left: 125px;
+  display: block;
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#ProcesoCompleto #div-llave{
+  width: 135px;
+  height: 220px;
+  top: 85px;
+  left: 210px;
+  display: none;
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#ProcesoCompleto #Archivo1 {
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  width: 62px;
+  height: 20px;
+  top: 307px;
+  left: 74px;
+  color: #00aeff;
+  font-size: 9px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+#ProcesoCompleto #Archivo2 {
+  display: block;
+  position: absolute;
+  background-color: transparents;
+  width: 62px;
+  height: 20px;
+  top: 332px;
+  color: #00aeff;
+  font-size: 9px;
+  left: 252px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+#ProcesoCompleto #BorrarArchivoCargadoCertificado {
+  display: inline-block;
+  opacity: .5;
+  width: 8px;
+  z-index: 101;
+  transform: scale(0, 0);
+  transform-origin: center;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #BorrarArchivoCargadoLlave {
+  display: inline-block;
+  opacity: .5;
+  width: 8px;
+  z-index: 101;
+  transform: scale(0, 0);
+  transform-origin: center;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto .mostrar-elemento{
+  opacity: 1 !important;
+}
+#ProcesoCompleto .transform-scale{
+  transform: scale(1,1) !important;
+}
+
+#ProcesoCompleto #BorrarArchivoCargadoCertificado:hover, #ProcesoCompleto #BorrarArchivoCargadoLlave:hover {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+#ProcesoCompleto #Anuncio_CHECKBOX {
+  display: block;
+  position: absolute;
+  height: 26px;
+  width: 380px;
+  top: 4px;
+  z-index: 0;
+  background-color: red;
+  opacity: .8;
+  border-radius: 0 0 10px 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Texto_Anuncio_CHECKBOX {
+  display: block;
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: -4px;
+  left: 18px;
+  text-align: center;
+}
+#ProcesoCompleto #Anuncio_CHECKBOX2 {
+  display: block;
+  position: absolute;
+  height: 26px;
+  width: 380px;
+  top: 4px;
+  z-index: 0;
+  background-color: red;
+  opacity: .8;
+  border-radius: 0 0 10px 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Texto_Anuncio_CHECKBOX2 {
+  display: block;
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: -4px;
+  left: 44px;
+  text-align: center;
+}
+#ProcesoCompleto #OpcionesCIEC {
+  display: block;
+  position: absolute;
+  color: #676767;
+  font-size: 11px;
+  /* top: 70px; */
+  top:83px;
+  left: 35px;
+  font-weight: bold;
+  opacity: 1;
+  transition: ease .5s;
+}
+#ProcesoCompleto #texto_1 {
+  font-family: ubuntu;
+  color: grey;
+  font-size: 13px;
+  display: block;
+  position: absolute;
+  top: 230px;
+  left: 123px;
+  transition: all .5s;
+  opacity: 1;
+  font-weight: lighter;
+}
+#ProcesoCompleto .Tipo_Label {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  left: -2px;
+  font-size: 8px;
+  font-weight: bold;
+}
+#ProcesoCompleto .linea_factura {
+  display: block;
+  position: relative;
+  height: 70px;
+}
+#ProcesoCompleto #ContenedorDelosImpuestos {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  width: 330px;
+  height: 242px;
+  margin: 10px;
+  left: 17px;
+  top: 50px;
+  overflow-y: scroll;
+  display: none;
+  transition: all 1s ease;
+}
+
+#ProcesoCompleto #header-impuestos{
+  display: block;
+  position: relative; 
+  height: 15px;
+  width: 290px;
+  color: #00aeff;
+  font-size: 11px;
+  left: 20px
+}
+#ProcesoCompleto #header-tipo{
+  width: 50px;
+  display:inline-block;
+}
+#ProcesoCompleto #header-nombre{
+  width: 130px;
+  display:inline-block;
+}
+#ProcesoCompleto #header-tasa{
+  width: 40px;
+  display:inline-block;
+}
+
+#ProcesoCompleto #Anuncio_Impuesto2 {
+  display: block;
+  position: absolute;
+  height: 26px;
+  width: 380px;
+  top: 4px;
+  z-index: 2;
+  background-color: red;
+  opacity: .8;
+  border-radius: 0 0 10px 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #AnuncioImpuesto2 {
+  display: block;
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: -4px;
+  left: 108px;
+  text-align: center;
+}
+#ProcesoCompleto #Anuncio_Impuesto3 {
+  display: block;
+  position: absolute;
+  height: 26px;
+  width: 380px;
+  top: 4px;
+  z-index: 2;
+  background-color: red;
+  opacity: .8;
+  border-radius: 0 0 10px 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #AnuncioImpuesto3 {
+  display: block;
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: -4px;
+  left: 145px;
+  text-align: center;
+}
+#ProcesoCompleto li {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  list-style-type: none;
+  width: 300px;
+  height: 65px;
+  font-family: ubuntu;
+  font-size: 10px;
+}
+#ProcesoCompleto ul {
+  padding: 0;
+}
+#ProcesoCompleto #error_certificado, #ProcesoCompleto #error_ciec {
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  top: 5px;
+  z-index: 0;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  background-color: red;
+  width: 380px;
+  height: 25px;
+  opacity: 1;
+}
+#ProcesoCompleto div #error_certificado p,#ProcesoCompleto div #error_ciec p{
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  color: white;
+  font-size: 11px;
+  left: 0px;
+  width: 380px;
+  font-weight: bold;
+}
+#ProcesoCompleto #Agregar_mas_LDImpuesto {
+  display: none;
+  position: absolute;
+  width: 25px;
+  left: 178px;
+  top: 309px;
+  z-index: 5;
+  transform-origin: center;
+  transition: all 1s;
+}
+#ProcesoCompleto #Agregar_mas_LDImpuesto:hover {
+  transform: scale(1.2, 1.2);
+}
+#ProcesoCompleto .Tipo_Impuesto {
+  display: block;
+  position: absolute;
+  background-color: #00aeff;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+#ProcesoCompleto .Label_Nombre {
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  margin-top: 30px;
+  color: grey;
+  height: 30px;
+  width: 130px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#ProcesoCompleto .Label_Porcentaje {
+  display: inline-block;
+  position: absolute;
+  left: 210px;
+  margin-top: 30px;
+  color: grey;
+  width: 62px;
+  overflow: hidden;
+}
+#ProcesoCompleto .Basura {
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  left: 274px;
+  width: 15px;
+  height: 15px;
+  margin-top: 27px;
+  transition: all .5s;
+  opacity: .2;
+}
+#ProcesoCompleto .Basura:hover {
+  transform: scale(1.2, 1.2);
+  opacity: .6;
+}
+#ProcesoCompleto #container_LDImpuesto {
+  display: block;
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0;
+  animation: fadeinicial 0.8s cubic-bezier(1, 0, 0, 1);
+}
+@keyframes fadeinicial {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #LDImpuesto_Titulo {
+  display: block;
+  position: relative;
+  background-color: #00aeff;
+  height: 8%;
+  z-index: 999;
+}
+#ProcesoCompleto #Titulo_Text {
+  display: block;
+  position: absolute;
+  left: 90px;
+  text-align: center;
+  margin: 0;
+  top: 7px;
+  font-family: ubuntu;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+#ProcesoCompleto #Nombre_Impuesto {
+  display: block;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  font-family: ubuntu;
+  position: relative;
+  height: 25px;
+  width: 200px;
+  left: 30px;
+  top: 25px;
+}
+#ProcesoCompleto ::-webkit-input-placeholder {
+  color: black;
+  opacity: .4;
+  position: absolute;
+  display: block;
+}
+#ProcesoCompleto :hover::-webkit-input-placeholder {
+  /* opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out; */
+}
+#ProcesoCompleto #LDImpuestos_circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #00aeff;
+  display: inline-block;
+  position: absolute;
+  top: 130px;
+  transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #LDImpuestos_circulo1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #00aeff;
+  display: inline-block;
+  position: absolute;
+  -webkit-transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Cont_Circulos {
+  transition: all .5s;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  /* left -30px para que no se alinie con la forma */
+  left: -30px;
+  background-color: transparent;
+  opacity: 1;
+}
+#ProcesoCompleto select {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+}
+#ProcesoCompleto #forma2 {
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+}
+#ProcesoCompleto #forma1 {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  -webkit-transform: scale(0, 0);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  transform-origin: center;
+}
+#ProcesoCompleto #LDImpuesto_bodymovin {
+  background-color: transparent;
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 12px;
+  left: 14px;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #LDImpuesto_bodymovin2 {
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 75%;
+  height: 75%;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #LDImpuesto_bodymovin3 {
+  background-color: transparent;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  z-index: 7;
+  left: 150px;
+  top: 140px;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #LDImpuesto_bodymovin3:hover {
+  transform: scale(1.2, 1.2);
+}
+#ProcesoCompleto #R_Select {
+  display: none;
+  position: absolute;
+  top: 161px;
+  left: 141px;
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #9E9E9E;
+  font-family: ubuntu;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 41px 8px;
+  background-size: 9px;
+  transition: all .3s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  animation: Selected_Tag 1s cubic-bezier(1, 0, 0, 1);
+  opacity: 1;
+  font-size: 12px;
+  z-index: 20;
+}
+#ProcesoCompleto #Tasas {
+  display: block;
+  position: absolute;
+  top: 161px;
+  left: 140px;
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #878787;
+  font-family: ubuntu;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 44px 8px;
+  background-size: 9px;
+  transition: all .7s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  animation: Selected_Tag 1s cubic-bezier(1, 0, 0, 1) normal;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 0;
+  transform: scale(0, 0);
+}
+#ProcesoCompleto #seleccion1 {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 140px;
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #878787;
+  font-family: ubuntu;
+  appearance: normal;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 133px 8px;
+  background-size: 9px;
+  transition: all .7s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  animation: Selected_Tag 1s cubic-bezier(1, 0, 0, 1) normal;
+  opacity: 1;
+  font-size: 12px;
+  z-index: 40;
+  transform: scale(0, 0);
+}
+#ProcesoCompleto #seleccion1:hover {
+  border: 1px solid #26a0c9;
+  background-size: 11px;
+  background-position: 132px 7px;
+}
+#ProcesoCompleto #input_tasa {
+  display: block;
+  position: absolute;
+  top: 161px;
+  left: 141px;
+  width: 60px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid #D4D4D4;
+  color: #878787;
+  font-family: ubuntu;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../../images/site/Flecha-01.png);
+  background-repeat: no-repeat;
+  background-position: 130px 5px;
+  background-size: 13px;
+  transition: all .7s;
+  z-index: 10;
+  font-size: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  animation: Selected_Tag 0.5s cubic-bezier(1, 0, 0, 1) normal;
+  opacity: 1;
+}
+#ProcesoCompleto #input_tasa:hover {
+  border: 1px solid #26a0c9;
+  background-size: 11px;
+  background-position: 132px 7px;
+}
+
+#ProcesoCompleto #div-exento {
+  display: none;
+  position: absolute;
+  top: 144px;
+  left: 211px;
+  color: #878787;
+  font-family: ubuntu;
+  transition: all .7s;
+  z-index: 10;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+}
+#ProcesoCompleto #flecha {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 345px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+  transform: scale(0, 0);
+  opacity: .6;
+}
+#ProcesoCompleto #LDImpuesto_Guardar {
+  font-family: ubuntu;
+  font-size: 8px;
+  position: absolute;
+  display: inline-block;
+  top: 352.5px;
+  left: 310px;
+  color: grey;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Texto_R_LDImpuesto {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 353px;
+  left: 38px;
+  transition: all .5s;
+  opacity: 1;
+}
+#ProcesoCompleto #Texto_C_LDImpuesto {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 352px;
+  left: 300px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_C_LDImpuesto {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 345px;
+  z-index: 1;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_LDImpuesto {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  transform: scale(-1, 1);
+  left: 15px;
+  opacity: .5;
+  z-index: 1;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_LDImpuesto:hover {
+  opacity: 1;
+  transform: scale(-1.4, 1.4);
+}
+#ProcesoCompleto #Flecha_C_LDImpuesto:hover {
+  opacity: 1;
+  transform: scale(1.4, 1.4);
+}
+#ProcesoCompleto #TODO_ListaImpuesto {
+  display: none;
+  position: absolute;
+  transform: scale(1.3, 1.3);
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+}
+#ProcesoCompleto #ManualCIEC {
+  display: block;
+  position: absolute;
+  top: 323px;
+  left: 54px;
+  font-size: 10px;
+  text-decoration: none;
+  color: grey;
+  transition: all 0.5 cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #ManualCIEC:hover {
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent!important;
+}
+#ProcesoCompleto #Flecha_R_Lista {
+  display: none;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 18px;
+  opacity: .6;
+  transform-origin: center;
+  transform: rotate(180deg);
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R_Lista:hover {
+  opacity: 1;
+}
+#ProcesoCompleto #TituloImpuestos {
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 112px;
+  color: grey;
+  opacity: 1;
+  font-size: 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #TituloImpuestos2 {
+  display: block;
+  position: absolute;
+  top: 244px;
+  left: 112px;
+  color: grey;
+  opacity: 1;
+  font-size: 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #info-retencion {
+  display: block;
+  position: absolute;
+  top: 295px;
+  left: 112px;
+  color: grey;
+  opacity: 1;
+  font-size: 10px;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #DescripcionIMPUESTOS {
+  display: block;
+  position: absolute;
+  width: 91%;
+  height: 26%;
+  left: 1px;
+  top: 7px;
+}
+#ProcesoCompleto #container_CIEC {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-radius: 20px;
+  overflow: hidden;
+  animation: contenedor 1s ease;
+}
+@keyframes contenedor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #Unlock {
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  top: 17px;
+  left: 20px;
+  transform: scale(0.001, 0.001);
+}
+#ProcesoCompleto #CIEC_h1 {
+  display: block;
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  top: 5px;
+  left: 116px;
+  font-family: ubuntu;
+  color: white!important;
+  font-weight: bold;
+  font-size: 18px;
+}
+#ProcesoCompleto #CIEC_Titulo {
+  display: block;
+  position: relative;
+  background-color: #00aeff;
+  height: 8%;
+  z-index: 2;
+}
+#ProcesoCompleto #CIEC_bodymovin {
+  background-color: transparent;
+  width: 80%;
+  height: 80%;
+  top: 10px;
+  left: 13px;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+#ProcesoCompleto body {
+  background-color: grey;
+  font-family: ubuntu;
+}
+#ProcesoCompleto #CIEC_circulo {
+  background-color: #00aeff;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: 201px;
+  left: 24px;
+  transform: scale(0.8, 0.8);
+  animation: circulo 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #C_CIEC {
+  font-family: ubuntu;
+  color: #00aeff;
+  font-weight: bold;
+  font-size: 20px;
+  left: 135px;
+  top: 110px;
+  display: block;
+  position: absolute;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  animation: C_CIEC 2s cubic-bezier(0.5, 0, 0, 0.5) forwards;
+  opacity: 0;
+}
+@keyframes C_CIEC {
+  50% {
+    opacity: 0;
+    top: 190px;
+  }
+  100% {
+    opacity: 1;
+    top: 210px;
+  }
+}
+@keyframes circulo {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(0.8, 0.8);
+  }
+}
+#ProcesoCompleto ::-webkit-input-placeholder {
+  color: black;
+  opacity: .3;
+  position: absolute;
+  display: block;
+}
+#ProcesoCompleto :hover::-webkit-input-placeholder {
+  /* opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out; */
+}
+#ProcesoCompleto #inputs {
+  display: block;
+  position: absolute;
+  top: 245px;
+  left: 171px;
+  border-radius: 7px;
+  height: 25px;
+  width: 180px;
+  border: none;
+  font-size: 10px;
+  box-shadow: 0 1px 2px rgba(1, 1, 1, 0.4) inset, 0 -1px 0 transparent inset;
+  opacity: 1;
+}
+#ProcesoCompleto .button:active {
+  background-color: #fcb14b;
+  box-shadow: 0 5px #A77026;
+  transform: translateY(4px);
+}
+#ProcesoCompleto #ingresos_checkbox {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  /* transform: translate3d(0, 0, 0); */
+  text-align: center;
+  opacity: 1;
+  right: 55px;
+  bottom: 5px;
+  z-index: 1;
+}
+#ProcesoCompleto #egresos_checkbox {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  /* transform: translate3d(0, 0, 0); */
+  text-align: center;
+  opacity: 1;
+  right: 52px;
+  bottom: 5px;
+  z-index: 1;
+}
+#ProcesoCompleto #clientes_checkbox {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  /* transform: translate3d(0, 0, 0); */
+  text-align: center;
+  opacity: 1;
+  right: 52px;
+  bottom:5px;
+  z-index: 1;
+}
+#ProcesoCompleto #productos_checkbox {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  /* transform: translate3d(0, 0, 0); */
+  text-align: center;
+  opacity: 1;
+  right: 62px;
+  bottom: 5px;
+  z-index: 1;
+}
+#ProcesoCompleto .cuadros {
+  width: 15px;
+  left: -25px;
+  top: 6px;
+  display: block;
+  position: absolute;
+  transform-origin: center;
+  /* transform: scale(0, 0); */
+  /* transform: scale(1,1); */
+  /* transition: ease .5s; */
+  cursor: pointer;
+}
+#ProcesoCompleto #Ingresos {
+  display: block;
+  position: absolute;
+  top: 10px;
+  /* transform: scale(0, 1); */
+}
+#ProcesoCompleto #Egresos {
+  display: block;
+  position: absolute;
+  top: 60px;
+}
+#ProcesoCompleto #clientes {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+#ProcesoCompleto #productos {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+}
+#ProcesoCompleto #opciones span {
+  transform: scale(0, 1);
+  animation: textos 1s cubic-bezier(1, 0, 0, 1) forwards;
+  transform-origin: left;
+}
+@keyframes textos {
+  from {
+    transform: scale(0, 1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#ProcesoCompleto #opciones {
+  display: inline-block;
+  position: absolute;
+  background-color: transparent;
+  font-family: ubuntu;
+  color: #00aeff;
+  font-weight: bold;
+  top: 100px;
+  left: 60px;
+  font-size: 20px;
+  opacity: 1;
+  width: 300px;
+  height: 130px;
+}
+#ProcesoCompleto #Descripcion {
+  background-color: transparent;
+  width: 97%;
+  position: absolute;
+  height: 30%;
+  display: block;
+  top: 0px;
+  left: -4px;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  z-index: 0;
+}
+#ProcesoCompleto #Texto_R {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 353px;
+  left: 38px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Texto_C {
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  color: grey;
+  top: 352px;
+  left: 300px;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_C {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  left: 345px;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R {
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  top: 350px;
+  transform: scale(-1, 1);
+  left: 15px;
+  opacity: .5;
+  transform-origin: center;
+  transition: all .5s;
+}
+#ProcesoCompleto #Flecha_R:hover {
+  opacity: 1;
+  transform: scale(-1.4, 1.4);
+}
+#ProcesoCompleto #Flecha_C:hover {
+  opacity: 1;
+  transform: scale(1.4, 1.4);
+}
+#ProcesoCompleto #X_Salida_CIEC, #ProcesoCompleto #X_Salida_impuestos {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  z-index: 600;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #X_Salida_Certificado {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  left: 356px;
+  top: 6px;
+  z-index: 1;
+  transition: all .5s;
+  cursor: pointer;
+}
+#ProcesoCompleto #X_Salida_Certificado:hover, #ProcesoCompleto #X_Salida_CIEC:hover, #ProcesoCompleto #X_Salida_impuestos:hover {
+  transform: scale(1.8, 1.8) rotate(180deg);
+}
+#ProcesoCompleto #salida_CIEC, #ProcesoCompleto #salida_impuestos {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  top: 3px;
+  left: 350px;
+  width: 10px;
+  height: 10px;
+  transform-origin: center;
+  transform: scale(0.65, 0.65);
+  animation: FadeinX_InfoDeContacto forwards;
+  opacity: 1;
+  animation-duration: 1.5s;
+}
+@keyframes FadeinX_InfoDeContacto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #TODO_CIEC {
+  display: none;
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+  transition: all .5s;
+  transform: scale(1.3, 1.3);
+}
+#ProcesoCompleto #ToolTip_Ingresos {
+  display: inline-block;
+  position: absolute;
+  font-size: 10px;
+  top: 138px;
+  left: 50px;
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+  opacity: 0;
+  color: grey;
+}
+#ProcesoCompleto #ToolTip_Egresos {
+  display: inline-block;
+  position: absolute;
+  font-size: 10px;
+  top: 186px;
+  left: 50px;
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+  opacity: 0;
+  color: grey;
+}
+#ProcesoCompleto #ToolTip_Productos {
+  display: inline-block;
+  position: absolute;
+  font-size: 10px;
+  top: 138px;
+  left: 234px;
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+  opacity: 0;
+  color: grey;
+}
+#ProcesoCompleto #ToolTip_Clientes {
+  display: inline-block;
+  position: absolute;
+  font-size: 10px;
+  top: 186px;
+  left: 237px;
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+  opacity: 0;
+  color: grey;
+}
+#ProcesoCompleto #tituloOtroImpuesto {
+  display: inline-block;
+  position: absolute;
+  color: grey;
+  top: 338px;
+  left: 142px;
+  font-size: 9px;
+  opacity: 0;
+  transition: all .5s;
+}
+#ProcesoCompleto #IEPS_Label {
+  font-size: 14px;
+  left: 10px;
+  top: 16px;
+}
+
+
+/* PASO 9 */
+#DescripcionLOGO{
+	display:block;
+	position:absolute;
+	width:102%;
+	height:32%;
+	top:0px;
+	left:-26px;
+	opacity:.8;
+}
+
+
+#TODO_Logo{
+	display:block;
+	position:absolute;
+	transition:all .5s cubic-bezier(1,0,0,1);
+	transform:scale(1.3,1.3);
+	height:380px;
+	width:380px;
+	transform-origin:center;
+}
+#Logo_h1{
+	display:block;
+	position:absolute;
+	text-align:center;
+	margin:0;
+	top:5px;
+	left:158px;
+	font-family:ubuntu;
+	color:white!important;
+	font-weight:bold;
+	font-size:18px;
+}
+#container_Logo{
+	width:380px;
+	height:380px;
+	background-color:white;
+	display:block;
+	position:relative;
+	border-radius:20px;
+	overflow:hidden;
+	z-index:1;
+	animation:contenedor 1s ease;
+}
+#Logo_Titulo{
+	display:block;
+	position:relative;
+	background-color:#00aeff;
+	height:8%;
+	z-index:3;
+}
+
+#Anuncio-logo{
+  display:block;
+  position:absolute;
+  width:380px;
+  height:30px;
+  color:white!important;
+  background-color:#98bc24;
+  opacity:1;
+  text-align:center;
+  border-radius:0 0 10px 10px;
+  top:0px;
+  z-index:1;
+				
+}
+#Anuncio-logo p{
+  font-size:11px;
+  font-size:ubuntu;
+  display:block;
+  position:absolute;
+  top:-4px;
+  left:58px;
+  
+}
+
+#Carga{
+	font-family:ubuntu;
+	display:inline-block;
+	position:absolute;
+	color:#878787;
+	text-align:center;
+	font-size:9px;
+	top:60px;
+	left:26px;
+	transform-origin:center;
+	transition:all .5s cubic-bezier(1,0,0,1);
+	z-index:4;
+	cursor:pointer;
+}
+Carga:hover{
+	color:black;
+	transform:scale(1.2,1.2);
+	cursor:pointer;
+}
+
+#clock{
+	   background-image:url('');
+	   background-size:contain;
+	   background-repeat:no-repeat;
+	   background-position: center;
+	   height: 130px; width: 130px;
+	   position:absolute;
+	   display:inline-block;
+	   left:125px;
+	   border-radius:20px;
+	   border: dashed 1.3px #727272;
+	   top:65px;
+}
+
+#getval{
+  /* display:none; */
+  opacity: 0;
+
+}
+
+#Slogan{
+	  /* margin-top:10px; */
+	  border-radius: 5px;
+	  border: none;
+	  box-shadow: 0 1px 2px rgba(0,0,0,0.14) inset, 0 -.5px 0 rgba(0,0,0,0.05) inset;
+	  transition: all 0.5s cubic-bezier(1,0,0,1);
+	  font-family: ubuntu;
+	  font-size: 13px;
+	  color: #222222;
+	  display:block;
+	  position: relative;
+	  height: 25px;
+	  width: 180px;
+	  left:100px;
+	  top:120px;
+	  opacity:0;
+	  transform:scale(.001,001);
+	  z-index:2;
+}
+#Logo_Regresar{
+	display:inline-block;
+	position:absolute;
+	width:15px!important;
+	top:347px;
+	left:20px;
+	transition:.5s;
+	opacity:.4;
+    transform: rotate(180deg);
+}
+
+#Regresar:hover{
+  	cursor:pointer;
+  opacity:.7;
+  
+
+}
+#ProcesoCompleto #previewFactura {
+  display: inline-block;
+  position: absolute;
+  width: 371px;
+  height: 241px;
+  left: 150px;
+  top: 100px;
+  background-image: url(../../images/site/factura_moderna.jpg);
+  background-origin: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #ICargada {
+  display: inline-block;
+  position: absolute;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  top: -55px;
+  left: -87px;
+  width: 274px;
+  height: 294px;
+  transition: all 0.7s cubic-bezier(0.6, 0, 0, 0.65);
+}
+#ProcesoCompleto #ReloadImage {
+  width: 14px;
+  height: 15px;
+  display: block;
+  left: 247px;
+  top: 221px;
+  z-index: 2;
+  position: absolute;
+  background-image: url(../../images/site/reload-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px 15px;
+  transform: scale(0, 0);
+  transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+}
+#RegresarText{
+	font-family:ubuntu;
+	font-size:8px;
+	position:absolute;
+	display:inline-block;
+	top:351px;
+	opacity:.7;
+	left:45px;
+	color:grey;
+	transition:all .6s cubic-bezier(1,0,0,1);
+}
+#Logo_Continuar{
+	display:inline-block;
+	position:absolute;
+	width:15px!important;
+	cursor:pointer;
+	top:348.5px;
+	left:340px;
+	transition: .5s;
+	opacity:.4;
+
+}
+#Logo_Continuar:hover{
+	cursor:pointer;
+	opacity:.7;
+}
+
+#previewFactura{
+	display:inline-block;
+	position:absolute;
+	width:371px;
+	height:241px;
+	left:150px;
+	top:100px;
+	background-image:url('../images/site/factura_moderna.jpg');
+	background-origin:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	transition: all 1s cubic-bezier(1,0,0,1);
+}
+
+#ICargada{
+	display:inline-block;
+	position:absolute;
+	background-image:url('');
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:4px;
+	top:-55px;
+	left:-87px;
+	width:274px;
+	height:294px;
+	transition:all .7s cubic-bezier(.6,0,0,.65);
+}
+#ReloadImage{
+	width:14px;
+	height:15px;
+	display:block;
+	left:247px;
+	top:221px;
+	z-index:2;
+	position:absolute;
+	background-image:url('../images/site/reload-01.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 14px 15px;
+	transform:scale(0,0);
+	transition:all .2s cubic-bezier(1,0,0,1);
+}
+#ReloadImage:hover{
+transform:rotate(360deg);
+}
+    #Logo_ReloadImage{
+	display:block;
+	position:absolute;
+	width:25px;
+	height:25px;
+	top:-4px;
+	left:-5px;
+	z-index:0;
+	}
+ #Logo_button2{
+	 display:none;
+	 position:absolute;
+	 border-radius:7px;
+	 background-color:#fcb14b;
+	 border: none;
+	 top:225px;
+	 left:154px;
+	 font-size:13px;
+	 font-family:ubuntu;
+	 font-weight:bold;
+	 color: #FFFFFF;
+	 text-align: center;
+	 width: 79px;
+	 height:29px;
+	 transition: all 1s;
+	 box-shadow: 0 2.5px #D08D33;
+	 opacity:0;
+	 transform-origin:center;
+	 cursor:pointer;
+	 z-index:2;
+ }
+  .Logo_button:hover {background-color: #fcb14b;}
+
+.Logo_button:active {
+  background-color: #fcb14b;
+  box-shadow: 0 2px #A77026;
+  transform: translateY(4px);
+}
+
+#contenedorFiles{
+display:inline-block;
+position:absolute;
+left:0px;
+}
+#Logo_ButtonReload{
+	display:block;
+	 position:absolute;
+	 border-radius:7px;
+	 background-color:#fcb14b;
+	 border: none;
+	 top:265px;
+	 left:20px;
+	 font-size:12px;
+	 font-family:ubuntu;
+	 font-weight:bold;
+	 color: #FFFFFF;
+	 text-align: center;
+	 width: 100px;
+	 height:35px;
+	 transition: all 1s;
+	 box-shadow: 0 2.5px #D08D33;
+	 opacity:1;
+	 transform-origin:center;
+	 cursor:pointer;
+	 transform:scale(.001,.001);
+
+}
+#Logo_ButtonReload:active {
+  background-color: #fcb14b;
+  box-shadow: 0 2px #A77026;
+  transform: translateY(4px);
+}
+
+#Logo_Guardar{
+	font-family:ubuntu;
+	font-size:8px;
+	position:absolute;
+	display:inline-block;
+	top:351px;
+	opacity:.7;
+	left:295px;
+	color:grey;
+	transition:all .6s cubic-bezier(1,0,0,1);
+}
+
+#contenedorFiles{
+	display:block;
+	position:relative;
+	top:0px;
+}
+
+#DefiniciónSlogan{
+	display:block;
+	position:absolute;
+	top:211px;
+	left:105px;
+	color:grey;
+	opacity:0;
+	text-align:center;
+	font-size:9px;
+	font-style:oblique;
+	transition:all .5s;
+}
+#SloganPreview{
+	display:block;
+	position:absolute;
+	top:229px;
+	left:157px;
+	color:grey;
+	opacity:0;
+	text-align:left;
+	font-size:13px;
+	font-style:oblique;
+	transition:all .5s;
+	overflow:hidden;
+	width:224px;
+}
+
+/* PASO 9 */
+
+
+
+
+
+
+#ProcesoCompleto #TODO_Felicidades {
+  display: block;
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  transform-origin: center;
+  transform: scale(1.3, 1.3);
+  transition: all 1s;
+  opacity: 0;
+}
+#ProcesoCompleto #Felicidades_h1 {
+  font-family: ubuntu;
+  font-size: 50px;
+  margin: 0;
+  display: block;
+  position: relative;
+  color: white!important;
+  text-align: center;
+  top: 10px;
+  animation: delay1  .5s ease-in;
+}
+@keyframes delay1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #Felicidades_h2 {
+  font-family: ubuntu;
+  font-size: 15px;
+  margin: 0;
+  top: 10px;
+  display: block;
+  position: relative;
+  color: white!important;
+  text-align: center;
+  font-weight: lighter;
+  animation: delay2  .5s ease-in;
+}
+@keyframes delay2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #Felicidades_Titulo {
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: white!important;
+  font-family: ubuntu;
+  top: 280px;
+  font-size: 25px;
+  margin: 0;
+  animation: delay3  1s ease-in;
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+}
+@keyframes delay3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#ProcesoCompleto #Felicidades_bodymovin {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  background-color: rgba(255, 128, 255, 0);
+  height: 120%;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #Felicidades_bodymovin2 {
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  background-color: rgba(255, 128, 255, 0);
+  height: 140%;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #Felicidades_bodymovin3 {
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  background-color: rgba(255, 128, 255, 0);
+  height: 100%;
+  width: 50%;
+  z-index: 0;
+  display: inline-block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+#ProcesoCompleto #Felicidades_container {
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: #98ba3c;
+  overflow: hidden;
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Felicidades_circulo {
+  background-color: rgba(255, 128, 255, 0);
+  height: 100%;
+  width: 75%;
+  left: 55px;
+  top: -5px;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Globos {
+  background-color: rgba(255, 128, 255, 0);
+  height: 100%;
+  width: 75%;
+  left: 55px;
+  top: -5px;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Realizar_F {
+  display: block;
+  position: absolute;
+  top: 380px;
+  font-family: ubuntu;
+  color: white;
+  left: 75px;
+  font-weight: bold;
+  animation: Flecha_Factura_Intro 1s;
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+  transform: scale(0.7, 0.7);
+  text-decoration: none;
+  z-index: 1;
+}
+#ProcesoCompleto #Realizar_F:hover {
+  top: 370px;
+  transform: scale(1, 1);
+}
+@keyframes Flecha_Factura_Intro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+#ProcesoCompleto #linkFactura {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  top: 330px;
+  left: 130px;
+  opacity: .3;
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+  transform: scale(0, 0);
+}
+#ProcesoCompleto div#Felicidades_circulo path {
+  fill: #D6F2FF;
+}
+#ProcesoCompleto #Felicidades_Thumbsup {
+  display: block;
+  position: absolute;
+  width: 60%;
+  top: 97px;
+  left: 104px;
+}
+#ProcesoCompleto #Felicidades_ComputadoraFelicidades {
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 3px;
+  width: 100%;
+}
+#ProcesoCompleto #botonFelicidades {
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  background-color: #fcb14b;
+  border: none;
+  top: 349px;
+  left: 137px;
+  font-size: 11px;
+  font-family: ubuntu;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  width: 128px;
+  height: 31px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 4px #D08D33;
+  animation: botton 1.5s cubic-bezier(1, 0, 0, 1);
+  transform-origin: center;
+}
+#ProcesoCompleto div #Felicidades_container button span {
+  display: block;
+  position: absolute;
+  left: 39px;
+  top: 10px;
+}
+#ProcesoCompleto #Felicidades_FuegosArtificiales {
+  display: block;
+  position: absolute;
+  width: 40%;
+}
+#ProcesoCompleto #Felicidades_FuegosArtificiales2 {
+  display: block;
+  position: absolute;
+  width: 60%;
+  left: 174px;
+}
+#ProcesoCompleto #FacturaNueva {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 18px;
+  top: 7px;
+  left: 10px;
+}
+#ProcesoCompleto #Salir_Felicidades {
+  display: block;
+  position: absolute;
+  opacity: .6;
+  height: 26px;
+  left: 370px;
+  top: 2px;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+#ProcesoCompleto #Salir_Felicidades:hover {
+  opacity: 1;
+  transform: rotate(360deg) scale(1.5, 1.5);
+}
+
+
+
+/* AJUSTES PASO 10 */
+#link-Manual-Factura{
+  position: absolute;
+  top: 384px;
+  left: 147px;
+  font-size: 10px;
+  color: white!important;
+  text-decoration: none!important;
+}
+
+#link-Manual-Factura:hover{
+  position: absolute;
+  top: 384px;
+  left: 147px;
+  color: white!important;
+  background: transparent!important;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none!important;
+}
+
+.button:hover span{
+  padding-right: 10px!important;
+}
+
+#ProcesoCompleto #FacturaNueva{
+  left: 8px;
+}
+
+/* ****************************************************************** */
+/* ****************************************************************** */
+/* ****************************************************************** */
+/* EFECTO DE PRE-SELECCION DE GIRO
+/* ****************************************************************** */
+/* ****************************************************************** */
+/* ****************************************************************** */
+#GIRObodymovin3:hover, 
+#GIRObodymovin2:hover, 
+#GIRObodymovin:hover, 
+#GIRObodymovin4:hover{
+    top: 95px!important;
+  }
+
+  .opcion_seleccionada{
+    top: 95px!important;
+}
+.opcion_no_seleccionada{
+    opacity: .2!important;
+}
+
+#otro_giro{
+  text-align: center;
+}
+
+#Texto_R_conversion,
+#Texto_C_conversion, 
+#Flecha_R_conversion, 
+#Texto_C_conversion, 
+#Texto_R_Giro, 
+#Flecha_R_Giro, 
+#Texto_C_Giro, 
+#Flecha_C_Giro,
+#Texto_C,
+#Flecha_C,
+#Texto_R,
+#Flecha_R,
+.handSelector{
+  cursor: pointer;
+}
+
+
+.tabla_iconos_por_terminar{
+  width: 100%;
+}
+.tabla_iconos_por_terminar td{
+  width: 100px;
+}
+.tabla_iconos_por_terminar img:hover{
+  margin-top: -20px;
+  opacity: 1!important;
+  transition: .4s;
+}
+
+.metodo_encuentro_seleccionado{
+  margin-top: -20px;
+  opacity: 1!important;
+}
+
+.muestra_otro_metodo_contacto{
+  opacity: 1!important;
+  top: 380px!important;
+  display: initial!important;
+}
+.esconde_otro_metodo_contacto{
+  opacity: 0;
+  top: 310px;
+  transition: ease .5s;
+}
+
+/* PASO 9 */
+div#logo_existente img{
+  width: 180px;
+  height: 180px;
+  margin-top: 35px;
+  border-radius:7px;
+}
+
+#logo_existente,#logo_no_existente{
+  display: none;
+}
+
+#cambiarLogoMeth{
+	 border-radius:7px;
+	 background-color:#fcb14b;
+	 border: none;
+	 font-size:12px;
+	 font-family:ubuntu;
+	 font-weight:bold;
+	 color: #FFFFFF;
+	 text-align: center;
+	 width: 100px;
+	 height:35px;
+	 box-shadow: 0 2.5px #D08D33;
+	 opacity:1;
+	 cursor:pointer;
+}
+
+#ProcesoCompleto .input_error{
+  border: 1px red solid !important;
+  background-color: white !important;
+}
+
+#ProcesoCompleto .input_ok{
+  border: 1px #4cff4f solid !important;
+}
+.barra_progreso_logo{
+  display:none;
+  margin: 20px auto;
+  width: 80%;
+}
+
+#TODO_datosEmpresa,#TODO_InfoDeContacto,#TODO_Giro,#TODO_SuperEstamos,#TODO_PerfilEm,#TODO_Certificado,#TODO_CIEC,#TODO_ListaImpuesto,#TODO_Logo,#TODO_Felicidades{
+  display: none;
+  transform: scale(1.5, 1.5)!important;
+}
+.opciones_giros{
+  display: none;
+}
+
+#ProcesoCompleto .span-seleccionado{
+  top: 238px !important;
+  transform: scale(1.1, 1.1) !important;
+}
+
+#ProcesoCompleto .imagen-seleccionada{
+  transform: scale(1.1, 1.1) !important;
+}
+
+#ProcesoCompleto .texto-seleccionado{
+  font-weight: bold !important;
+}
+
+
+
+
+/* NUEVO DISEÑO DE REGISTRO DE EMPRESAS */
+
+.rfc_mayusculas{
+  text-transform: uppercase;
+}
+.popover{
+  min-width:200px!important;
+}
+.tabla_formulario_registro{
+  width: 100%;
+}
+.tabla_formulario_registro td{
+  padding: 6px;
+  text-align: center;
+}
+.tabla_formulario_registro img{
+  width: 30px;
+  height: 20px;
+  margin-top: 7px;
+}
+
+.tabla_formulario_registro input,.input_promocion input {
+  font-family: 'Ubuntu', sans-serif;
+  /* font-size: 16px; */
+  /* width: 250px; */
+}
+.input_promocion input{
+  margin: 0px auto;
+}
+.input_promocion{
+  display: none;
+}
+.estilo_box{
+  -moz-box-shadow:    0px 0px 10px 0px #676666;
+  -webkit-box-shadow: 0px 0px 10px 0px #676666;
+  box-shadow:         0px 0px 10px 0px #676666;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 10px auto;
+  min-height: 390px;
+}
+
+.cuadros_registro{
+  width: 320px;
+  display: inline-block;
+  /* min-height: 347px; */
+  padding: 12px;
+}
+#link_codigo_promocion{
+  padding-left: 35px;
+  text-align: center;
+}
+#Texto_Descriptivo{
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+#TarjetaForzoso{
+  font-size: 12px;
+}
+.links_footer, .links_footer a{
+  color: #5d6265;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.registro_tos{
+  font-size: 11px;
+}
+
+.boton_registrase,.boton_registrase:active{
+  padding: 8px;
+  background: orange;
+  width: 150px;
+  margin-left: 40px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 0px 1px 1px darkorange;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 8px;
+}
+
+.boton_registrase:hover,.boton_registrase:active{
+  color: white;
+  transition: .5s;
+  box-shadow: 0px 2px 1px 1px darkorange;
+}
+.footer_nuevo_registro{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  color: #0f7b9c;
+  padding: 10px;
+}
+.cuadros_registro .popover{
+  text-align: left;
+}
+/* FIN NUEVO DISEÑO DE REGISTRO DE EMPRESAS */
+
+
+
+/* ANIMACION DE PRIMEROS PASOS */
+#registro_ppasos_contenedor{
+  background-color:transparent;
+  display:block;
+  position:relative;
+  width:293px;
+  height:250px;
+  left:10px;
+  transition: all 1s cubic-bezier(1,0,0,1);
+
+}
+
+#lottie{
+  background-color:Transparent;
+  width:100%;
+  position:relative;
+  height:100%;
+  display:block;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+  left:0px;
+}
+
+#loading{
+  background-color:Transparent;
+  width:100%;
+  position:relative;
+  height:100%;
+  display:none;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+  left:0px;
+}
+
+#timeline_boton{
+  padding:10px;
+  font-family:ubuntu;
+  display:block;
+  width:100%;
+  font-size:15px;
+  color:white;
+  border-radius: 4px;
+  border:none;
+  background-color:#2994B9;
+  transition:all 1s;
+  transform-origin: center;
+  opacity:1;
+  margin-top: 10px;
+
+}
+#timeline_boton:hover{
+  transform:translateY(-10px);
+}
+#timeline_boton:active{
+  background-color:#28859E;
+  transform: scale(.95,.95);
+
+}
+/* FIN ANIMACION DE PRIMEROS PASOS */
+
+@media only screen and (max-width: 600px) {
+    #header-logo img {
+        width: 70%;
+    }
+}
+
+
+.mostrar_tooltip{
+  opacity: 1!important;
+}
+
+.timeline_boton {
+  background-color: #4d8eb5;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #4d8eb5; -webkit-box-shadow: 0 0 3px #f0b758; }
+  50% { background-color: #f0b758; -webkit-box-shadow: 0 0 3px #f0b758; }
+  100% { background-color: #4d8eb5; -webkit-box-shadow: 0 0 3px #f0b758; }
+}

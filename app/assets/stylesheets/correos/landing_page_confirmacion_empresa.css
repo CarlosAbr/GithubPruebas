@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TODO_Registro{
+	margin: 5px auto;	
+}
+
+#Registro_container{
+	display:block;
+	position:relative;
+	background-color:#00aeff;
+	width:470px;
+	min-height:470px;
+	border-radius:20px;
+	animation: scale .8s cubic-bezier(1,0,0,1);
+	padding: 5px;	
+	box-shadow: 0px 0px 5px 0px #0091b6;
+}
+.Registro_button{
+	margin-left: 0px;
+}
+#bodymovin_confirmacion{
+	width: 140px;
+	height: 152px;
+}
+#bodymovin_confirmacion{
+	transform: scale(2.4,2.4);
+}
+#Registro_h1{
+display:inline-block;
+/* position:absolute; */
+/* font-family:ubuntu; */
+color:white!important;
+font-size:29px;
+text-align:center;
+animation: fadein 1s;
+animation-delay:.5s;
+opacity:0;
+animation-fill-mode:forwards;
+margin:5px;
+}
+#Registro_h2{
+display:inline-block;
+/* position:absolute; */
+font-family:ubuntu;
+color:white!important;
+font-weight:100;
+font-size:18px;
+text-align:center;
+/* top:270px; */
+animation: fadein 1s;
+animation-delay:.8s;
+opacity:0;
+animation-fill-mode:forwards;
+}
+
+#Registro_h4{
+display:inline-block;
+/* position:absolute; */
+font-family:ubuntu;
+color:white!important;
+font-weight:100;
+font-size:15px;
+text-align:center;
+/* top:353px; */
+/* left:42px; */
+animation: fadein 1s;
+animation-delay:1.5s;
+opacity:0;
+animation-fill-mode:forwards;
+}
+
+
+	@keyframes scale{
+from{transform:scale(0,0)}
+to{transform:scale(1,1)}
+}
+	@keyframes fadein{
+from{opacity:0}
+to{opacity:1;}
+}
+
+
+/*BOTON*/
+
+a.Registro_button:hover {background-color: #E7A244;}
+
+a.Registro_button:active {
+	background-color: #fcb14b;
+	/* box-shadow: 0 2.5px #A77026; */
+	/* transform: translateY(5px); */
+}
+
+a#link-reenviar-correo {
+    background: #fcb14b;
+    color: white;
+    width: 130px;
+    margin: 0px auto;
+    height: 35px;
+	text-decoration: none;
+    border-radius: 10px;
+	box-shadow: 0 2px #D08D33;
+}
+
+	.tabla_felicidades_por_registrarte{
+		width: 100%;
+	
+	}
+	.tabla_felicidades_por_registrarte td{
+		text-align: center;
+	
+	}
+
+	.imagenOK img{
+		animation: fadein 1s;
+		animation-delay:1s;
+		width: 130px!important;
+    	margin-top: 50px;
+    	margin-bottom: 10px;
+	}

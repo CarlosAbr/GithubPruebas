@@ -1,0 +1,101 @@
+#new_factura_recurrente, .edit_factura_recurrente{
+	margin-top: 20px;
+}
+
+.busqueda-fields-group{
+	margin-bottom: 7px;
+}
+
+.label-cliente-rfc
+{
+	margin-right: 10px;
+	max-width: 15px;
+}
+.label-cliente-cliente
+{
+	max-width: 55px;
+}
+
+.label-rfc {
+	max-width: 100px;
+}
+
+.btn-buscar-eliminados{
+	margin-left: 25px;
+}
+.btn-nueva-factura{
+	height: 50px;
+	width: 210px;
+}
+
+input.factura-recurrente-concepto-input, select.factura-recurrente-concepto-input {
+    width: 120px;
+}
+
+.icons{
+	padding: 7px;
+}
+
+.cantidad{
+	width: 80px;
+}
+
+.articulo{
+	/*width: 155px;*/
+}
+
+.descripcion{
+	/*width: 340px;*/
+}
+
+.unidad{
+	width: 80px;
+}
+
+.precio-unitario{
+	width: 125px;
+}
+
+.impuesto{
+	width: 97px;
+	padding: 0;
+	padding-left: 5px;
+	height: 100%;
+	border: none;
+	outline: none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+}
+
+.parcialidades{
+	top: 30px;
+	padding-left: 1px;
+}
+
+.parcialidad{
+	padding-left: 8px;
+	padding-right: 0px;
+	width: 40px;
+}
+
+.customDE{
+	top: 8px;
+	left: 8px;
+}
+
+.concat div:not(.popover){
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: inherit;
+}
+
+.setWidth {
+    max-width: 100px;
+}
+.padding-left-off
+{
+	padding-left: 0;
+}

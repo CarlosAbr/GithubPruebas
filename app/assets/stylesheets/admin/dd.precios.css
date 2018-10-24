@@ -1,0 +1,305 @@
+/* DISENO Tabla de Precios */
+.table-precios {
+  box-shadow: 0 10px 20px rgba(10, 10, 10, 0.06);
+}
+
+.th-titulo {
+  background: #26a0c9 none repeat scroll 0 0;
+  color: #fff;
+  padding: 12px 16px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bolder;
+}
+
+.th-recomendado {
+  position: relative !important;
+  bottom: 10px;
+  background: #f3a841 none repeat scroll 0 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bolder;
+}
+
+.table-precios > tbody > tr > td:not(.td-boton) {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.td-recomendado {
+  border-radius: 4px;
+  margin-top: 6px;
+  position: relative;
+  z-index: 99;
+}
+
+.td-boton {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.td-recomendado-boton {
+  border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.td-espacio {
+  padding-top: 20px;
+}
+
+.td-espacio-recomendado {
+  padding-top: 40px;
+  border-left: 1px solid rgba(10, 10, 10, 0.06);
+}
+
+.td-border-right {
+  border-right: 2px solid rgba(10, 10, 10, 0.06);
+}
+
+.border-precios {
+  border-left: 2px solid rgba(10, 10, 10, 0.06);
+}
+
+.btn-seleccionar-recomendado {
+  background-color: #f3a841;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-seleccionar {
+  background-color: #26a0c9;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-seleccionar:hover, .btn-seleccionar-recomendado:hover {
+  color: #fff !important;
+}
+
+.td-division {
+  border-bottom: 1px solid #eee;
+  margin: 0 auto 10px;
+}
+
+.tab-container {
+  border: solid 1px #ddd;
+  border-top: 0;
+  min-height: 900px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img-horizontal-line {
+  width: 225px;
+  height: 16px;
+}
+
+.img-precios-checkmark {
+  width: 15px;
+  height: 15px;
+}
+
+.td-gray-bg {
+  background-color: rgba(10, 10, 10, 0.06);
+}
+
+.td-selected-azul {
+  box-shadow:0 15px 0px #26a0c9;
+}
+
+.td-selected-naranja {
+  box-shadow:0 15px 0px #f3a841;
+}
+
+/* Diseno General */
+.span-tooltip {
+  left: -20px;
+  position: relative;
+  top: 10px !important;
+}
+
+.row-lower {
+  position: relative;
+  top:10px;
+}
+
+.row-precios-paquetes {
+    padding-top:  15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+.col-precios-paquetes-derecha {
+    /*border: 2px solid #e4e4e4;*/
+    border: 2px solid #26a0c9;
+    border-radius: 4px;
+    float: right !important;
+    right: 15px;
+    height: 310px;
+}
+
+.col-precios-paquetes-derecha-tarjeta {
+    /*border: 2px solid #e4e4e4;*/
+    border: 2px solid #26a0c9;
+    border-radius: 4px;
+    float: right !important;
+    right: 15px;
+    height: 342px;
+}
+
+.col-precios-paquetes-izquierda {
+    /*border: 2px solid #e4e4e4;*/
+    border: 2px solid #26a0c9;
+    border-radius: 4px;
+    float: left !important;
+    position: relative;
+    top: 0px;
+    width: 500px;
+    height: 335px;
+}
+
+.col-paypal-expand {
+  height: 335px !important;
+}
+
+.col-pago-ventanilla {
+  height:343px;
+}
+
+#table-pago-ventanilla > tbody > tr.tr-grid-precios > td:first-child {
+    vertical-align: top !important;
+    width: 4%;
+}
+
+tr.tr-grid-precios > td {
+  padding-bottom: 10px;
+  padding-top: 9px;
+  width: 30%;
+}
+
+tr.tr-grid-tarjeta > td {
+    padding-bottom: 10px;
+    padding-top: 9px;
+    width: 300px;
+}
+
+tr.tr-separator {
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+tr.tr-small-expand {
+  height: 15px;
+}
+
+.informacion-paquete-recontratar {
+  border: 2px solid #26a0c9;
+  border-radius: 4px;
+  float: left !important;
+  height: 400px;
+  position: relative;
+  top: 0;
+  width: 500px;
+}
+
+.informacion-tarjeta-recontratar {
+  height: 400px;
+}
+
+.grid-tarjeta > tbody > tr.tr-expand {
+  height: 146px;
+}
+
+.container-precios-paquetes {
+    margin-bottom: 25px;
+}
+
+.container-precios {
+    padding: 50px;
+}
+
+.container-height {
+    height: 100px;
+    padding: 10px;
+    bottom: 0px;
+}
+
+.img-precios {
+    max-height: 22px;
+    max-width: 27px;
+    height: 22px;
+    width: 27px;
+}
+
+.paquetes-usuarios-adicionales  {
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #26a0c9;
+  border-radius: 4px;
+}
+
+.paquetes-tipo-pago {
+  border: 2px solid #26a0c9;
+  border-radius: 4px;
+  height: 100px;
+  padding: 10px;
+}
+
+#div-paypal {
+  position: relative;
+  top: 50px;
+}
+
+.img-tarjetas {
+  width: 51px !important;
+  height: 32px !important;
+}
+
+.img-tarjetas-higher {
+  position: relative;
+  top: -8px;
+  width: 94px !important;
+  height: 53px !important;
+}
+
+.tarjetas-lower {
+  position: relative;
+  top: 2px;
+}
+
+.red-msg {
+  color: #c80f1f;
+  font-weight: bold;
+}
+
+.p-oferta-especial {
+  position: relative;
+  left: 18px;
+}
+
+#row-titulo-opciones-adicionales, #row-titulo-oferta-especial {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#span-usuarios-adicionales-costo {
+  position: relative;
+  left: 20px;
+}
+
+/* Windows 10 Edge Browser and shit @supports method */
+@supports (-ms-accelerator:true) {
+  tr.tr-grid-tarjeta > td {
+      padding-bottom: 10px;
+      padding-top: 9px;
+      width: 500px;
+  }
+}

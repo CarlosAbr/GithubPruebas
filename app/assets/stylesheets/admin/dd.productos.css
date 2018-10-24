@@ -1,0 +1,66 @@
+.btn-nuevo-producto {
+    width: 215px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 17px;
+}
+
+.td-width-articulo {
+    max-width: 100px;
+}
+
+.td-width-descripcion {
+    max-width: 250px;
+}
+
+.td-width-impuesto {
+   max-width:100px;
+}
+
+.total-resultados {
+    width: 75px;
+}
+
+#productos-total {
+    position: relative;
+    top: 10px;
+}
+
+.cb-control-productos {
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+#informe-importacion-filas {
+    overflow: auto;
+    max-height: 200px;
+}
+
+.separador-botones {
+  position: relative;
+  left: 5px;
+}
+
+.alineador-botones {
+  position: relative;
+  left: -10px;
+}
+
+.btn-link {
+    border-radius: 0;
+    color: #337ab7 !important;
+    font-weight: normal;
+}
+
+/* Windows 10 Edge Browser and shit @supports method */
+@supports (-ms-accelerator:true) {
+  .btn-nuevo-producto {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 17px;
+  }
+}

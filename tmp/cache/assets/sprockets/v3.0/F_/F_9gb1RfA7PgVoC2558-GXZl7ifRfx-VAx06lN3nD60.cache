@@ -1,0 +1,46 @@
+I"É(function() {
+  Paloma.controller('pagos', {
+    pagos_index: function() {}
+  });
+
+  console.log("jojojojo");
+
+  Paloma.controller('pagos', {
+    pagos_index: function() {
+      return tippy('.tooltip_planes', {
+        arrow: true,
+        arrowType: 'round',
+        size: 'large',
+        animation: 'scale'
+      });
+    }
+  });
+
+  $('#plan_adminSAT_revela').slideUp(0);
+
+  $('.slider_reveal').on('click', function() {
+    if ($('#plan_adminSAT_revela').hasClass('clicked-once')) {
+      $('#plan_adminSAT_revela').slideUp();
+      $('#plan_adminSAT_revela').removeClass('clicked-once');
+    } else {
+      $('#plan_adminSAT_revela').addClass('clicked-once');
+      $('#plan_adminSAT_revela').slideDown();
+    }
+  });
+
+  $('.planes_boton_activo').slideUp(0);
+
+  $('.slider_reveal_btn').on('click', function() {
+    if ($('.slider_reveal_btn').hasClass('clicked-once')) {
+      $('.planes_boton_activo').slideUp(0);
+      $('#planes_boton_azul_inactivo').slideDown(0);
+      $('.slider_reveal_btn').removeClass('clicked-once');
+    } else {
+      $('.slider_reveal_btn').addClass('clicked-once');
+      $('#planes_boton_activo').slideDown(0);
+      $('#planes_boton_azul_inactivo').slideUp(0);
+    }
+  });
+
+}).call(this);
+:ET

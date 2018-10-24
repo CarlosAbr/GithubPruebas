@@ -1,0 +1,66 @@
+#new_cotizacion, .edit_cotizacion{
+	margin-top: 20px;
+}
+
+.form-horizontal .control-label{
+    text-align: left;
+}
+
+input.cotizacion-concepto-input, select.cotizacion-concepto-input {
+    width: 120px;
+}
+
+.icons{
+	padding: 7px;
+}
+
+.cantidad{
+	width: 80px;
+}
+
+.articulo{
+	/*width: 155px;*/
+}
+
+.descripcion{
+	/*width: 340px;*/
+}
+
+.unidad{
+	width: 80px;
+}
+
+.precio-unitario{
+	width: 125px;
+}
+
+.impuesto{
+	width: 97px;
+	padding: 0;
+	padding-left: 5px;
+	height: 100%;
+	border: none;
+	outline: none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+}
+
+#send_email_subject{
+    width: 470px;
+    height: 200px;
+}
+
+.modal-dialog{
+    width: 800px;
+}
+
+.set-column-width{
+    max-width: 200px;
+}
+
+.div-cotizacion{
+	width: 826px;
+	min-height: 600px;
+	border: 1px solid #bfbfbf;
+	padding-bottom: 30px;
+}

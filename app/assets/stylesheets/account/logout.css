@@ -1,0 +1,48 @@
+#img-logout-balloon {
+  width: 902px;
+  height: 224px;
+}
+
+#div-mensaje-centro {
+  float: center;
+}
+
+#div-row-inputs {
+  position: relative;
+  left: 180px;
+}
+
+#div-row-mensaje {
+  position: relative;
+  left: 180px;
+  top: 10px;
+}
+
+#textarea_mensaje {
+  height: 100px !important;
+  width: 770px !important;
+}
+
+#input_asunto {
+  margin-left: 10px;
+}
+
+#btn-enviar-sugerencias {
+  background-color: #f3a841;
+  color: #fff;
+  text-decoration: none;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#div-row-boton-enviar {
+  position: relative;
+  left: 90px;
+  top: 150px;
+}
+
+.div-docdigitales-2015 {
+  position: relative;
+  top: 2px;
+}
