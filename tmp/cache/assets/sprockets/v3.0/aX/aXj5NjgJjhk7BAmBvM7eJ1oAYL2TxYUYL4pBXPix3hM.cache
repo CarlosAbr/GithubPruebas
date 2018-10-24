@@ -1,9 +1,0 @@
-I"(function() {
-  Paloma.controller('pagos', {
-    pagos_inicio: function() {}
-  });
-
-  console.log("jojojojo");
-
-}).call(this);
-:ET
